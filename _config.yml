@@ -21,20 +21,17 @@ permalink:        pretty
 title: Max Marion
 tagline:          'A Personal Page'
 # description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-description:      'poo poo poo'
-url:              http://hyde.getpoole.com
-baseurl:      "_site"      
+description:      'A summary, some personality pics, and some longer form thoughts'
+baseurl:      ""      
 
 author:
   name:           'Max Marion'
-  url:            https://twitter.com/mdo
+  url:            https://twitter.com/maxisawesome538
 
 gems: [jekyll-paginate]
 paginate: 5
 paginate_path: "page:num"
 
 # Custom vars
-version:          2.1.0
+version:          0.0.1
 
-github:
-  repo:           https://github.com/poole/hyde
