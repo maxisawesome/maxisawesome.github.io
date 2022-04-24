@@ -2,7 +2,7 @@
 layout: post
 title:  "NeurIPS: A Beginner’s Guide"
 date:   2018-12-13 09:06:58 -0600
-categories: NeruIPS 
+categories: NeurIPS 
 ---
 
 NeurIPS 2018 has recently concluded, and I was lucky enough to have been able to attend. As a student volunteer and first time attendee, I didn’t have a paper to present, but also didn’t have to deal with the 11 minute 38 second window in which you could buy tickets. Instead I worked one day checking people in, and for the rest of the conference just roamed around feeling very noobish. I had lots of questions and anxieties about what was gonna happen going into the conference, so I’ve written some things that I would’ve liked to have heard beforehand. In the follow blog post, I’ll define the different events that happen at the conference, as I didn’t know what they were before I arrived, and then give you some Do’s and Don’ts that defined my experience. It ended up being a little long, and while I did try to make all the content relevant, there’s a TL;DR for those with shorter attention spans or who just ain’t got time for all that (no offense taken). 

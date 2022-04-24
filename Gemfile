@@ -30,4 +30,5 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 gem "jekyll-paginate"
 gem "redcarpet"
-# gem "github-pages"
+gem "jquery"
+gem "github-pages"

@@ -9,6 +9,10 @@
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+# sass:
+
+
+
 # Dependencies
 markdown:         redcarpet
 highlighter:      pygments
@@ -29,7 +33,7 @@ author:
   url:            https://twitter.com/maxisawesome538
 
 gems: [jekyll-paginate]
-paginate: 5
+paginate: 3 
 paginate_path: "page:num"
 
 # Custom vars
