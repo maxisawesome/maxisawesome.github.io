@@ -33,3 +33,4 @@ gem "redcarpet"
 gem "jquery"
 gem "github-pages"
 gem 'pygments.rb'
+gem "addressable", ">= 2.8.0"

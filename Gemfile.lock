@@ -274,6 +274,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  addressable (>= 2.8.0)
   github-pages
   jekyll (~> 3.8.5)
   jekyll-feed (~> 0.6)
