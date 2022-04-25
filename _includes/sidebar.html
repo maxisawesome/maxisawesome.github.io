@@ -10,7 +10,8 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}"
+        href="{{ site.baseurl }}/">About</a>
 
       {% comment %}
       The code below dynamically generates a sidebar nav of pages with
@@ -31,9 +32,21 @@
       <a class="sidebar-nav-item" href="{{ site.baseurl }}/assets/MaxMarionResume.pdf">CV</a>
       <a class="sidebar-nav-item" href="{{ site.baseurl }}/writings">Writings</a>
       <a class="sidebar-nav-item" href="{{ site.baseurl }}/cat">Cat</a>
-      <span class="sidebar-nav-item">v{{ site.version }}</span>
-    </nav>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+      <a href="https://www.twitter.com/maxisawesome538">
+        <i class="fa-brands fa-twitter"></i>
+      </a>
+      <a href="https://github.com/maxisawesome">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/max-marion/">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+
+      <span class="sidebar-nav-item">v{{ site.version }}</span>
+      <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
+  </nav>
+
+</div>
 </div>

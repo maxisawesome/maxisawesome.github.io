@@ -4,41 +4,12 @@ title: Writings
 ---
 
 ## Writings:
-[Evolution Does Not Achieve the Best Solution](/404.html),  April 2022
+[Some Personal Opinions](../opinions),  April 2022
 
-[Dota Players Should Really Be Nicer to Each Other](/404.html),  April 2022
+[Ways Machine Learning Shaped My World View](../ml_concepts),  April 2022
+
+<!-- [Evolution Does Not Achieve the Best Solution](/404.html),  April 2022
+
+[Dota Players Should Really Be Nicer to Each Other](/404.html),  April 2022 -->
 
 [Reflections on my First NeurIPS](/2018-12-13-NeurIPS-A-Beginners-Guide),  December 2018
-
-<!-- <div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div> -->

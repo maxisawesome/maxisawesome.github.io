@@ -32,3 +32,4 @@ gem "jekyll-paginate"
 gem "redcarpet"
 gem "jquery"
 gem "github-pages"
+gem 'pygments.rb'
