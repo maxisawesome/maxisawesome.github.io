@@ -37,5 +37,5 @@ paginate: 3
 paginate_path: "page:num"
 
 # Custom vars
-version:          0.0.1
+version:          0.0.2
 
