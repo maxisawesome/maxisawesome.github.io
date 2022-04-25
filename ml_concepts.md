@@ -22,4 +22,4 @@ Choosing the right moves was skilful, it was achieved through wisdom of knowing 
 
 #### Bonus: shape rotators vs wordcels
 
-The impetus of shape rotators vs wordcels makes itself super clear when you're familiar with any of the stuff above. Shapes are the high dimensional representations. Maniuplating the maniforlds that relate the them in your brain and words are the abstract concepts constructed from them. Wordcels play on the levels of the abstractions and dont come down and deal with the technical underbelly, creating the dichotomy. Of course all people do both but the applicability of the analogy is amusing.  
+The impetus of shape rotators vs wordcels makes itself super clear when you're familiar with any of the stuff above. Shapes are the high dimensional representations. Maniplating the maniforlds that relate the them in your brain and words are the abstract concepts constructed from them. Wordcels play on the levels of the abstractions and dont come down and deal with the technical underbelly, creating the dichotomy. Of course all people do both but the applicability of the analogy is amusing.  

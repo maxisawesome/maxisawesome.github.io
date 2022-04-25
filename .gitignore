@@ -3,7 +3,7 @@ _gh_pages
 _site
 .ruby-version
 vendor/
-assets/
+# assets/
 .bundle/
 
 # Numerous always-ignore extensions
