@@ -1,13 +1,21 @@
 ---
-layout: page
-title: About
-permalink: /about/
+layout: page 
+Title: About  
 ---
+I'm Max. These days my main claim to fame is doing machine learning in industry in Austin. I've been working at [KUNGFU.AI](https://kungfu.ai) for most of the time it's existed. My work has touched domains like computer vision, natural language processing, unsupervised learning, audio, and reinforcement learning. Here's a list of some of the cooler stuff I've done. You can assume that my role on these projects fell somewhere under "make the neural network work":
 
-Yes this is the default jekyll theme. No I will not be making a fancy custom one soon. It works well enough for now! I can't do everything I put on my todo list perfectly!
+* an algorithm to judge the price of collectables like Pokemon cards, baseball cards, or rare coins
+* a computer vision project identifying and pricing exterior damage on cars from cell phone photos
+* a model for processing ambient rainforest noise to find gunshots, chainsaws, and vehicles indicating poaching and logging
+* a system to scan insurance corpora to extract helpful sentences that say things like "drug X is covered by plan Y under situation Z, but not situation A"
+* a CTR (Click Through Rate) predictor for *crowd groaning noises* ads
+* a FOD detector in runway radar scans
+* A number of "information extractors" for large datastores of pdfs
+* the algorithm that judges SXSW speaker applications alongside human judges
+* and more! that are less interesting and slightly secret
 
-In more seriousness, I do plan to keep this blog running as a log of my journey into the tech world and specifically machine learning. Ideally it will be approachable yet informative to all readers: experienced practioners, total noobs who want to learn more, or even non-computer people. We'll see how I do with that.
+I play ultimate frisbee on Riverside, enjoy backpacking where I can forget about the anthropocene, have spent a whopping \<REDACTED> hours playing Dota 2 (go EG), lift, and hang out in my backyard with [my cat](../cat).
 
-I recently graduated from Occidental College with a double major in Math and Computer Science. I'm located in Austin, Texas, and am currently working for [KUNGFU.AI][kungfu].
+I grew up here in Austin, my current locale, went to school in Los Angeles, then moved back home. 
 
-[kungfu]: https://www.kungfu.ai/
+You may find my poor attempts at profesionalism on [Linkedin](https://www.linkedin.com/in/max-marion/), my worst takes on [Twitter](https://twitter.com/maxisawesome538), or my straight up email behind my high tech captcha: m m a r i o n 5 3 8 @ < r o b o t s  g o  a w a y > @ g m a i l 

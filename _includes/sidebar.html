@@ -1,0 +1,52 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="{{ site.baseurl }}/">
+          {{ site.title }}
+        </a>
+      </h1>
+      <p class="lead">{{ site.description }}</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}"
+        href="{{ site.baseurl }}/">About</a>
+
+      {% comment %}
+      The code below dynamically generates a sidebar nav of pages with
+      `layout: page` in the front-matter. See readme for usage.
+      {% endcomment %}
+
+      {% assign pages_list = site.pages %}
+      {% for node in pages_list %}
+      {% if node.title != null %}
+      {% if node.layout == "page" %}
+      <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title
+        }}</a>
+      {% endif %}
+      {% endif %}
+      {% endfor %}
+
+      <!-- <a class="sidebar-nav-item" href="{{ site.baseurl }}/about">About</a> -->
+      <a class="sidebar-nav-item" href="{{ site.baseurl }}/assets/MaxMarionResume.pdf">CV</a>
+      <a class="sidebar-nav-item" href="{{ site.baseurl }}/writings">Writings</a>
+      <a class="sidebar-nav-item" href="{{ site.baseurl }}/cat">Cat</a>
+
+      <a href="https://www.twitter.com/maxisawesome538">
+        <i class="fa-brands fa-twitter"></i>
+      </a>
+      <a href="https://github.com/maxisawesome">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/max-marion/">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+
+      <span class="sidebar-nav-item">v{{ site.version }}</span>
+      <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+  </div>
+  </nav>
+
+</div>
+</div>
