@@ -18,7 +18,7 @@ I play ultimate frisbee on Riverside, enjoy backpacking where I can forget about
 
 I grew up here in Austin, my current locale, went to school in Los Angeles, then moved back home. 
 
-You may find my poor attempts at profesionalism on [Linkedin](https://www.linkedin.com/in/max-marion/), my worst takes on [Twitter](https://twitter.com/maxisawesome538), most of the code I've ever written in my life on my [Github](https://github.com/maxisawesome), or my straight up email behind my high tech captcha: m m a r i o n 5 3 8 @ < r o b o t s  g o  a w a y > @ g m a i l 
+You may find my poor attempts at professionalism on [Linkedin](https://www.linkedin.com/in/max-marion/), my worst takes on [Twitter](https://twitter.com/maxisawesome538), most of the code I've ever written in my life on my [Github](https://github.com/maxisawesome), or my straight up email behind my high tech captcha: m m a r i o n 5 3 8 @ < r o b o t s  g o  a w a y > @ g m a i l 
 
 <!--  
 

@@ -10,7 +10,7 @@ Many concepts fit well into an embedding space analogy. Music genres, let's say,
 #### local minima
 
 
-<!-- #### high dimensional boundaries -->
+#### high dimensional boundaries
 #### train/test set difference
 #### loss and reward
 Loss is a measurement of failure that you want to minimize. In ML this is usually easy to measure, like number of incorrect predictions, but for 
