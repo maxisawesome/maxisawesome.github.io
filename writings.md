@@ -4,7 +4,7 @@ title: Writings
 ---
 
 ## Writings:
-[Some Personal Opinions](../opinions),  April 2022
+[Personal Opinions](../opinions),  April 2022
 
 [Ways Machine Learning Shaped My World View](../ml_concepts),  April 2022
 

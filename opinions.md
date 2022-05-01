@@ -3,15 +3,15 @@ layout: post
 Title: Personal Opinions 
 ---
 ## A List of Opinions
-In order to paint a better picture of myself, if that's something you're trying to ascertain. Reading on means you are by definition and I for one am honored. 
+In order to paint a better picture of myself, if that's something you're trying to ascertain. Reading on means you are by definition and I for one am honored. Topics chosen from some ill-defined bag of concepts containing stuff tech people frequently tweet about and personality tid-bits fit in a longer dating bio.
 
-**Favorite Movies and TV shows:** I don't watch enough movies or tv shows to pick favorites. Favorite anime is ZANKOKU NA TENSHI NO YOU NI
+**Favorite Movies and TV shows:** I don't watch enough movies or tv shows to pick favorites. Favorite Anime is ZANKOKU NA TENSHI NO YOU NI
 
 **Favorite Video Game:** The Witness, Portal 1 and 2, Dota, in approximately that order
 
 **Favorite Puzzle Games:** The Witness, Portal, The Talos Principle, Baba is You, 
 
-**Favorite Book:** I feel the books I read are more spread out in content and style compared to, say, the games or movies I've consumed and are thus harder to compare. Cat's Cradle, Dune, Autobiography of Malcom X are all somewhere in the top five.
+**Favorite Book:** I feel the books I read are more spread out in content and style compared to, say, the games or movies I've consumed and are thus harder to compare. Cat's Cradle, Dune, Autobiography of Malcolm X are all somewhere in the top five.
 
 **Favorite Cloud:** Cumulus clouds tend to get all the fanfare, with reason, but I've always loved very high wispy cirrus or a nice all-day rainy day of nimbostratuses. I love clouds for many reasons, blue and white is simply the best color combination for one, but the depth and dynamics they give the sky above is how they inspire awe. They make the space they take up apparent and somewhere in the layers of processing your brain better makes sense of just _how_ big the sky and space it's looking at is.  
 
@@ -24,3 +24,4 @@ In order to paint a better picture of myself, if that's something you're trying 
 **Technology:** very good. I do stuff daily that my ancestors could not fathom. I have this whole spiel on the monks that would sit in basements copying tomes night after night. Can you imagine trying to explain to them what a PDF is to them? Trying to explain the significance of "ctrl+c, ctrl+vvvvvvvvvvvvvvvvv" on a copy of a holy books as it would compare to their life, or workhours? Computers are straight up magic when you think about 'em too hard. 
 That being said, technology is often slated under fire in archaic element systems and aptly carry the warnings about fire over to tech. Very powerful, very useful, all consuming, unruly, unforgiving. The forest fire was unstoppable before the industrial revolution. Once we derive a technology, it's not able to be put away and removed from the literature. Forbidden knowledge has a historically poor track record and we should be wary. I'd love to, yknow, show my kids glaciers or keep the whales around [long enough](https://www.nature.com/articles/s41598-019-48909-4) to [talk to them](https://arxiv.org/pdf/2104.08614.pdf). Technoutopia isn't outta reach but we gotta be practical about things. 
 
+(April 2022)
