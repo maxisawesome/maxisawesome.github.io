@@ -4,7 +4,7 @@ title: Writings
 ---
 
 ## Writings:
-[Ways Machine Learning Has Shaped My World View](../ml_concepts), April 2022
+[Ways Machine Learning Has Shaped My World View](../ml_concepts), May 2022
 
 [Personal Opinions](../opinions), April 2022
 
