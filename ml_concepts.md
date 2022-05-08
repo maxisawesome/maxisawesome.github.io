@@ -3,7 +3,6 @@ layout: post
 Title: Ways Machine Learning Shaped My World View 
 ---
 
-### A List of Machine Learning Concepts That Have Influenced My Way of Thinking 
 <!-- #### Embedding vectors:
 Many concepts fit well into an embedding space analogy. Music genres, let's say, are loosely defined categories that bleed in and out of each other through tractable and intractable connections. Representing them in high dimensional space and capturing a lot of these properties bodes well in the theory that _something_ like that is happening in our heads. Simply the idea that my mind is has representations of experiences has been influential to how I understand my own feelings and brain -->
 

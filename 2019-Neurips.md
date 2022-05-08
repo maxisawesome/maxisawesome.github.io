@@ -2,7 +2,7 @@
 layout: post
 Title: 2019 Neurips
 ---
-## The 5 Best Things I Saw at NeurIPS 2019
+<!-- ## The 5 Best Things I Saw at NeurIPS 2019 -->
 This post originally appeared on my company's blog [here.](https://www.kungfu.ai/blog-post/the-5-best-things-we-saw-at-neurips-2019)
 I've copied it here, just in case it ever evaporates from that part of the internet.
 

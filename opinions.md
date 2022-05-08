@@ -2,7 +2,6 @@
 layout: post
 Title: Personal Opinions 
 ---
-## A List of Opinions
 In order to paint a better picture of myself, if that's something you're trying to ascertain. Reading on means you are by definition and I'm honored. 
 
 **Favorite Movies and TV shows:** I don't watch enough movies or tv shows to pick favorites. Favorite Anime is ZANKOKU NA TENSHI NO YOU NI
