@@ -3,19 +3,19 @@ layout: post
 Title: Personal Opinions 
 ---
 ## A List of Opinions
-In order to paint a better picture of myself, if that's something you're trying to ascertain. Reading on means you are by definition and I for one am honored. Topics chosen from some ill-defined bag of concepts containing stuff tech people frequently tweet about and personality tid-bits fit in a longer dating bio.
+In order to paint a better picture of myself, if that's something you're trying to ascertain. Reading on means you are by definition and I'm honored. 
 
 **Favorite Movies and TV shows:** I don't watch enough movies or tv shows to pick favorites. Favorite Anime is ZANKOKU NA TENSHI NO YOU NI
 
 **Favorite Video Game:** The Witness, Portal 1 and 2, Dota, in approximately that order
 
-**Favorite Puzzle Games:** The Witness, Portal, The Talos Principle, Baba is You, 
+**Favorite Puzzle Games:** The Witness, Portal, The Talos Principle, Baba is You, Fez
 
-**Favorite Book:** I feel the books I read are more spread out in content and style compared to, say, the games or movies I've consumed and are thus harder to compare. Cat's Cradle, Dune, Autobiography of Malcolm X are all somewhere in the top five.
+**Favorite Book:** I feel the books I read are more spread out in content and style and are harder to compare. Cat's Cradle, Dune, Autobiography of Malcolm X are all somewhere in the top five.
 
-**Favorite Cloud:** Cumulus clouds tend to get all the fanfare, with reason, but I've always loved very high wispy cirrus or a nice all-day rainy day of nimbostratuses. I love clouds for many reasons, blue and white is simply the best color combination for one, but the depth and dynamics they give the sky above is how they inspire awe. They make the space they take up apparent and somewhere in the layers of processing your brain better makes sense of just _how_ big the sky and space it's looking at is.  
+**Favorite Cloud:** Cumulus clouds tend to get all the fanfare, with reason, but I've always loved very high wispy cirrus or a nice all-day rainy day of nimbostratuses. Blue and white is simply the best color combination for one, but the depth and dynamics they give the sky above is how they inspire awe. They make the space they take up apparent and somewhere in the layers of processing your brain better makes sense of just _how_ big the sky and space it's looking at is.  
 
-**Elon Musk:** The perennially controversial figure. I have nothing new to say, I'm annoyed more often than Musk lovers and less often than the Musk haters. I think he's more of a person than most leftists realize and he's pursing his interests. He's not _evil_ but billionaires would contribute more to the general state of the people in a """"better system"""". (so they should now too)
+**Elon Musk:** The perennially controversial figure. I have nothing new to say, I'm annoyed more often than Musk lovers (muskateers?) and less often than the Musk haters (muskrats?). I think he's more of a person than most leftists realize and he's pursing his interests. Mars _is_ cool but billionaires would contribute more to the general state of the people in a """"better system"""". 
 
 **Politics:** progressive. There is so much abundance in the world today, we could do a better job of sharing it. Lack of money should never prevent medical care, there are systems of power that favor some over others, "we can improve society somewhat," all that good jazz. Trans rights are human rights, BLM, ACAB, etc. 
 <!-- 

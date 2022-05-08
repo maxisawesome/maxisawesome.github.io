@@ -14,11 +14,15 @@ I'm Max. These days my main claim to fame is doing machine learning in industry 
 * the algorithm that judges SXSW speaker applications alongside human judges
 * and more! that are less interesting and/or slightly secret
 
-I play ultimate frisbee on Riverside, enjoy backpacking where I can forget about the anthropocene, have spent a whopping \<REDACTED> hours playing Dota 2 (go EG), lift, and hang out in my backyard with [my cat](../cat).
+I play ultimate frisbee on Riverside, enjoy backpacking where I forget about the anthropocene, have spent a whopping \<REDACTED> hours playing Dota 2 (go EG), lift, and hang out in my backyard with [my cat](../cat). I grew up here in Austin, went to school in Los Angeles, then moved back home. 
 
-I grew up here in Austin, went to school in Los Angeles, then moved back home. 
+poor attempts at professionalism [here](https://www.linkedin.com/in/max-marion/)
 
-You may find my poor attempts at professionalism on [Linkedin](https://www.linkedin.com/in/max-marion/), my worst takes on [Twitter](https://twitter.com/maxisawesome538), most of the code I've written on my [Github](https://github.com/maxisawesome), or my straight up email (featuring a high tech self-invented captcha): m m a r i o n 5 3 8 @ < r o b o t s  g o  a w a y > @ g m a i l 
+worst takes [here](https://twitter.com/maxisawesome538)
+
+code [here](https://github.com/maxisawesome)
+
+my straight up email (remove the hightech captcha): m m a r i o n 5 3 8 @ < r o b o t s  g o  a w a y > @ g m a i l 
 
 <!--  
 

@@ -22,7 +22,8 @@ permalink:        pretty
 # relative_permalinks: true
 
 # Setup
-title: Max Marion
+title: Max Marion 
+# title: M³ 
 tagline:          'A Personal Page'
 # description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 description:      'snapshots and longer form thoughts'
