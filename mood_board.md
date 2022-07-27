@@ -22,4 +22,4 @@ Title: mood board
     <img src="/assets/mood_board/20220105_165441.jpg"/> 
 </div>
 </html>
-subject to change without notice and absolutely not guarunteed to be up to date
+subject to change without notice and absolutely not guaranteed to be up to date

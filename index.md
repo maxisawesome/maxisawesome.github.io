@@ -2,19 +2,19 @@
 layout: default
 Title: Home
 ---
-I'm Max. These days my main claim to fame is doing machine learning in industry in Austin. I've been the resident goofball at [KUNGFU.AI](https://kungfu.ai) for most of the time it's existed. My work has touched domains like computer vision, natural language processing, unsupervised learning, audio, and reinforcement learning. Here's a list of the cooler stuff I've done. My role on these projects always fell under "make the neural network work":
+I'm Max. These days my main claim to fame is doing machine learning in industry in Austin. I've been a goofball at [KUNGFU.AI](https://kungfu.ai) for most of the time it's existed. My work has touched domains like computer vision, natural language processing, unsupervised learning, audio, and reinforcement learning. Here's a list of the cooler stuff I've done. My role on these projects always fell under "make the neural network work":
 
 * an algorithm to judge the price of collectibles like Pokemon cards, baseball cards, or rare coins
 * a computer vision project identifying and pricing exterior damage on cars from cell phone photos
 * a model for processing ambient rainforest noise to find gunshots, chainsaws, and vehicles indicating poaching and logging
 * a system to scan insurance corpora to extract helpful sentences like "drug X is covered by plan Y under situation Z, but not situation A"
 * a CTR (Click Through Rate) predictor for *crowd groaning noises* ads
-* a FOD detector for runway radar scans (detects debris on your runway that'd knock a plane off kilter)
+* a FOD detector for runway radar scans (detects debris on your runway that'd destroy your fancy plane engines)
 * A number of "information extractors" for large datastores of pdfs 
 * the algorithm that judges SXSW speaker applications alongside human judges
 * and more! that are less interesting and/or slightly secret
 
-I play ultimate frisbee on Riverside, enjoy backpacking where I forget about the anthropocene, have spent a whopping \<REDACTED> hours playing Dota 2 (go EG), lift, and hang out in my backyard with [my cat](../cat). I grew up here in Austin, went to school in Los Angeles, then moved back home. 
+I play ultimate frisbee on [Riverside](https://www.riversideultimate.org/), enjoy backpacking where I forget about the anthropocene, have spent a whopping \<REDACTED> hours playing Dota 2 (go EG), lift, and hang out in my backyard with [my cat](../cat). I grew up here in Austin, went to school in Los Angeles, then moved back home. 
 
 poor attempts at professionalism [here](https://www.linkedin.com/in/max-marion/)
 
@@ -26,7 +26,7 @@ my straight up email (remove the hightech captcha): m m a r i o n 5 3 8 @ < r o 
 
 <!--  
 
-The following code lets u page through post. 
+The following code lets u page through posts. 
 Not working - it doesnt seem to load the posts right.
 dont know how to get the posts that use layout: posts to be listed to be found here
 
