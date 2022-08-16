@@ -2,7 +2,7 @@
 layout: default
 Title: Home
 ---
-I'm Max. These days my main claim to fame is doing machine learning in industry in Austin. I've been a goofball at [KUNGFU.AI](https://kungfu.ai) for most of the time it's existed. My work has touched domains like computer vision, natural language processing, unsupervised learning, audio, and reinforcement learning. Here's a list of the cooler stuff I've done. My role on these projects always fell under "make the neural network work":
+I'm Max. My main claim to fame is doing machine learning in industry in Austin. I've been a goofball at [KUNGFU.AI](https://kungfu.ai) for most of the time it's existed. My work has touched domains like computer vision, natural language processing, audio, and unsupervised learning. Here's a list of the cooler stuff I've done. My role on these projects always fell under "make the neural network work":
 
 * an algorithm to judge the price of collectibles like Pokemon cards, baseball cards, or rare coins
 * a computer vision project identifying and pricing exterior damage on cars from cell phone photos
@@ -14,7 +14,7 @@ I'm Max. These days my main claim to fame is doing machine learning in industry 
 * the algorithm that judges SXSW speaker applications alongside human judges
 * and more! that are less interesting and/or slightly secret
 
-I play ultimate frisbee on [Riverside](https://www.riversideultimate.org/), enjoy backpacking where I forget about the anthropocene, have spent a whopping \<REDACTED> hours playing Dota 2 (go EG), lift, and hang out in my backyard with [my cat](../cat). I grew up here in Austin, went to school in Los Angeles, then moved back home. 
+I play ultimate frisbee on [Riverside](https://www.riversideultimate.org/), enjoy backpacking where I can forget about the anthropocene, have spent a whopping \<REDACTED> hours playing Dota 2 (go EG), lift, and hang out in my backyard with [my cat](../cat). I grew up here in Austin, went to school in Los Angeles, then moved back home. 
 
 poor attempts at professionalism [here](https://www.linkedin.com/in/max-marion/)
 
@@ -22,7 +22,7 @@ worst takes [here](https://twitter.com/maxisawesome538)
 
 code [here](https://github.com/maxisawesome)
 
-my straight up email (remove the hightech captcha): m m a r i o n 5 3 8 @ < r o b o t s  g o  a w a y > @ g m a i l 
+my str8 up email (remove the hightech captcha): m m a r i o n 5 3 8 @ < r o b o t s  g o  a w a y > @ g m a i l 
 
 <!--  
 
