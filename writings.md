@@ -13,7 +13,7 @@ Please let me know what you think (contact info on about page)! I'd love feedbac
 ## Posts:
 
 
-[I Am Simply So Amazed By Modern Technology](../modern_technology),  August 2022
+<!-- [I Am Simply So Amazed By Modern Technology](../modern_technology),  August 2022 -->
 
 <!-- [Dota Players Really Should Be Nicer to Each Other](../dota),   June 2022  -->
 
