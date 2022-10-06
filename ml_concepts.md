@@ -2,7 +2,7 @@
 layout: post 
 Title: Ways Machine Learning Shaped My World View 
 ---
-
+poopoop
 ### Embedding Vectors are Internal Representations:
 <!-- want to say: embedding vectors are internal representations. the way they work is cool and informs me?
 We're starting off with embedding vectors, which is kinda too bad cus their the most "mathy" of all these concepts.
