@@ -1,6 +1,6 @@
 ---
 layout: post
-Title: "The 5 Best Things I Saw at NeurIPS 2019"
+title: "The 5 Best Things I Saw at NeurIPS 2019"
 date:   2019-12-30 20:01:12 -0600
 categories: Machine Learning, NeurIPS
 ---

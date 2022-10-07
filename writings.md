@@ -7,7 +7,7 @@ title: Writings
 
 If I find myself thinking about something for long enough, I'll attempt to wrangle all the different points of view in my head into a succinct essay. I do write them with a theoretic audience in mind, and communicating anything is fun, but like most burgeoning artists, that audience has thus far been isolated to family and friends only. 
 
-Please let me know what you think (contact info on about page)! I'd love feedback on my writing, especially if something is poorly communicated or if I got a fact wrong. Yyyyyoouuuu CAN write me if you disagree with some opinion but if you're not nice about it I'll ignore you, and "cold call complaints about a stranger on the internet's opinion" does not have a historic track record of sunshine and roses. 
+<!-- Please let me know what you think (contact info on about page)! I'd love feedback on my writing, especially if something is poorly communicated or if I got a fact wrong. Yyyyyoouuuu CAN write me if you disagree with some opinion but if you're not nice about it I'll ignore you, and "cold call complaints about a stranger on the internet's opinion" does not have a historic track record of sunshine and roses.  -->
 
 
 ## Posts:
