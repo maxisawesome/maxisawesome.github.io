@@ -2,7 +2,7 @@
 layout: default
 Title: Home
 ---
-I'm Max. My main claim to fame is doing machine learning in industry in Austin. I've been a goofball at [KUNGFU.AI](https://kungfu.ai) for most of the time it's existed. My work has touched domains like computer vision, natural language processing, audio, and unsupervised learning. Here's a list of the cooler stuff I've done. My role on these projects always fell under "make the neural network work":
+I'm Max. My main claim to fame is doing machine learning in industry in Austin. I've been a goofball at [KUNGFU.AI](https://kungfu.ai) for most of the time it's existed. My work has touched domains like computer vision, natural language processing, audio, and unsupervised learning. Here's a list of the cooler stuff I've done, during which my role always fell under "make the neural network work":
 
 * an algorithm to judge the price of collectibles like Pokemon cards, baseball cards, or rare coins
 * a computer vision project identifying and pricing exterior damage on cars from cell phone photos
