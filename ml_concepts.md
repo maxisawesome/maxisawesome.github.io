@@ -4,6 +4,7 @@ Title: "Ways Machine Learning Has Shaped My World View"
 date:   2022-05-28 10:07:22 -0600
 categories: Machine Learning, blog
 ---
+
 ### Embedding Vectors are Internal Representations:
 <!-- done! -->
 <!-- want to say: embedding vectors are internal representations. the way they work is cool and informs me?

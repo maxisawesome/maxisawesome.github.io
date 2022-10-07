@@ -1,10 +1,9 @@
 ---
 layout: post
-Title: "The 5 Best Things I Saw at NeurIPS 2019 "
+Title: "The 5 Best Things I Saw at NeurIPS 2019"
 date:   2019-12-30 20:01:12 -0600
-categories: Machine Learning, Neurips 
+categories: Machine Learning, NeurIPS
 ---
-<!-- ## -->
 This post originally appeared on my [company's blog](https://www.kungfu.ai/blog-post/the-5-best-things-we-saw-at-neurips-2019).
 I've copied it here, just in case it ever evaporates from that part of the internet.
 
