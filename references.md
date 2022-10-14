@@ -11,18 +11,18 @@ Dict <--> Json
 
 ```
 import json
+with open('data.json', 'r') as fp:
+    data = json.load(fp)
 
 with open('data.json', 'w') as fp:
     json.dump(data, fp, sort_keys=True, indent=4)
-
-with open('data.json', 'r') as fp:
-    data = json.load(fp)
 ```
 
-List comprehension with conditional
-
+List comprehension with conditionals
 ```
-new_list = [x for x in blah blah blah ] 
+new_list = [x for x in list]
+new_list = [x for x in list if x <3]
+new_list = [x if x <3 else y for x in x ]
 ```
 
 ## Conda
@@ -42,7 +42,7 @@ conda env remove --name <ur env name here>
 Add conda env to jupyter 
 
 ```sh
-idk lol
+python -m ipykernel install --user --name <ur env name here> --display-name "<ur display name here> "
 ```
 
 ## Git commands
@@ -61,13 +61,13 @@ git checkout -b <branch_name> origin/<branch_name>
 
 ## F1 vs Precision vs Recall vs Accuracy
 
-F1 - blah blah blah 
+Precision - percentage of positive predictions that were correct - True Positive / (False Positives + True Positives)
 
-Precision - percentage of positive predictions that were correct
+Recall - percentage of positive class that was correctly identified - True Positive / (False Negatives + True Positives)
 
-Recall - percentage of positive class that was correctly identified
+Accuracy - percentage of predictions that were correct - True Positive + True Negatives / (False Positives + False Negatives + True Positives + True Negatives)
 
-Accuracy - percentage of predictions that were correct
+F1 - harmonic mean of precision and recall 
 
 ![](/assets/posts/f1_precision_recall.png)
 
