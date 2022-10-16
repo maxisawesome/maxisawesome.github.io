@@ -19,10 +19,25 @@ with open('data.json', 'w') as fp:
 ```
 
 List comprehension with conditionals
+why are they like this w/ different conditionals this annoys me
 ```
 new_list = [x for x in list]
 new_list = [x for x in list if x <3]
 new_list = [x if x <3 else y for x in x ]
+```
+
+Debugging Interpreter 
+```
+import IPython; IPython.embed()
+```
+
+## Jupyter Magic Commands
+
+```
+%matplotlib inline
+
+%load_ext autoreload
+%autoreload 2
 ```
 
 ## Conda
@@ -42,7 +57,7 @@ conda env remove --name <ur env name here>
 Add conda env to jupyter 
 
 ```sh
-python -m ipykernel install --user --name <ur env name here> --display-name "<ur display name here> "
+python -m ipykernel install --user --name <ur env name here> --display-name "<ur display name here>"
 ```
 
 ## Git commands
