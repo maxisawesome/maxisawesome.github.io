@@ -31,6 +31,15 @@ Debugging Interpreter
 import IPython; IPython.embed()
 ```
 
+Time something in seconds
+```
+import time
+start = time.time()
+function_to_time()
+end = time.time()
+duration = end - start
+```
+
 ## Jupyter Magic Commands
 
 ```
@@ -38,6 +47,18 @@ import IPython; IPython.embed()
 
 %load_ext autoreload
 %autoreload 2
+```
+
+## Bash
+
+find a file with wildcards
+```
+find . -name "*.csv"
+```
+
+unzip file
+```
+unzip file.zip -d destination_folder
 ```
 
 ## Conda
