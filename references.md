@@ -7,7 +7,7 @@ Amalgamation of code, commands, formulas, or tidbits I find myself repeatedly go
 
 ## Python
 
-Dict <--> Json
+Dict <--> JSON
 
 ```
 import json
@@ -16,6 +16,12 @@ with open('data.json', 'r') as fp:
 
 with open('data.json', 'w') as fp:
     json.dump(data, fp, sort_keys=True, indent=4)
+```
+
+Pretty print a dictionary/JSON
+
+```
+print(json.dumps(ur_dict, indent=4))
 ```
 
 List comprehension with conditionals
