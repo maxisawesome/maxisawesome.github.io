@@ -24,6 +24,25 @@ Pretty print a dictionary/JSON
 print(json.dumps(ur_dict, indent=4))
 ```
 
+Page through a compressed JSON
+
+```
+import gzip
+import json
+import boto3
+
+def stream_objects(filename):
+    with gzip.open(filename, 'rt') as f:
+        for line in f:
+            yield json.loads(line)
+
+json_path = "json_path.ndjson.gz"
+for i, line in enumerate(stream_objects(json_filepath)):
+    print(line.keys())
+    break
+
+```
+
 List comprehension with conditionals
 why are they like this w/ different conditionals this annoys me
 ```
