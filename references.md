@@ -25,6 +25,7 @@ print(json.dumps(ur_dict, indent=4))
 ```
 
 Page through a compressed JSON
+(credit to [levy5674](https://github.com/levy5674)!)
 
 ```
 import gzip
