@@ -8,7 +8,7 @@ categories: Machine Learning, blog
 I'll soon be moving on from my first job in tech (at [KUNGFU.AI](kungfu.ai) they rule you should work for them) at which I learned much and many life lessons were garnered. I accumulated some of these lessons and put them down in writing here. It's less of a "how to survive ur first job in industry/tech/life" and more of a "here's some things I learned a long the way". Hope there's some wisdom that helps you!
 
 ### All relationships are human relationships. 
-Yeah, you're all coworkers, but more so you're a group of people working together towards a goal. In the same way that friendships are relationships even if they're not "romantic" relationships, all your working relationships are human relationships even if they're in a professional context. Consequently, advice for strong and healthy "normal" relationships applies working relationships. The most notable of these has been "As much as possible, be 100% honest."
+You're all coworkers, but more so you're a group of people working together towards a goal. In the same way that friendships are relationships even if they're not "romantic" relationships, all your working relationships are human relationships even if they're in a professional context. Consequently, advice for strong and healthy "normal" relationships applies working relationships. The most notable of these has been "As much as possible, be 100% honest."
 
 
 ## Being a Worker™
