@@ -5,10 +5,10 @@ date:   2022-12-27 11:24:22 -0600
 categories: Machine Learning, blog
 ---
 
-I'll soon be moving on from my first job in tech (at [KUNGFU.AI](kungfu.ai) they rule you should work for them) at which I learned much and many life lessons were garnered. I accumulated some of these lessons and put them down in writing here. It's less of a "how to survive ur first job in industry/tech/life" and more of a "here's some things I learned a long the way". Hope there's some wisdom that helps you!
+I'll soon be moving on from my first job in tech (at [KUNGFU.AI](kungfu.ai) they rule you should work for them) at which I learned much and many life lessons were garnered. I accumulated some of these lessons and put them down in writing here. It's less of a "how to survive ur first job in industry/tech/life" and more of a "here's some things I learned along the way". Hope there's some wisdom that helps you!
 
 ### All relationships are human relationships. 
-You're all coworkers, but more so you're a group of people working together towards a goal. In the same way that friendships are relationships even if they're not "romantic" relationships, all your working relationships are human relationships even if they're in a professional context. Consequently, advice for strong and healthy "normal" relationships applies working relationships. The most notable of these has been "As much as possible, be 100% honest."
+You're all coworkers, but more so you're a group of people working together towards a goal. In the same way that friendships are relationships even if they're not "romantic" relationships, all your working relationships are human relationships even if they're in a professional context. Consequently, advice for strong and healthy "normal" relationships applies to working relationships. The most notable of these has been "As much as possible, be 100% honest."
 
 
 ## Being a Worker™
@@ -16,7 +16,7 @@ You're all coworkers, but more so you're a group of people working together towa
 If you were a basketball player you would be aware of your own strengths and weaknesses in order to account for them in game as well as improve upon them. No different in your profession - the only difference is that the skill you do is not basketball, it's whatever it is you do for work. I, for example, am good at prioritization and putting down code. I am less good at working long hours and tackling large problems with no structured approach. With this in mind, I look for opportunities to practice these things and improve from there. 
 
 ### Do things step by step, one by one, so that you know what changes are most important.
-Be thorough and don't rush. This goes for all experimentation you do on anything.
+Be thorough and don't rush. This goes for any experimentation that you do.
 ### 80% done is 50% done.
 I continuously underestimate the effort the last mile of any project will take. Given that the end is the impression you'll leave people with it's especially important. Adjust your trajectory accordingly.
 
