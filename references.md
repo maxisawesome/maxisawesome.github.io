@@ -49,7 +49,7 @@ why are they like this w/ different conditionals this annoys me
 ```
 new_list = [x for x in list]
 new_list = [x for x in list if x <3]
-new_list = [x if x <3 else y for x in x ]
+new_list = [x if x <3 else y for x in list ]
 ```
 
 Debugging Interpreter 
