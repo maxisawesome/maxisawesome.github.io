@@ -75,6 +75,22 @@ duration = end - start
 %autoreload 2
 ```
 
+Startup Script (`#!/bin/bash` not needed if it's not a script)
+```
+#!/bin/bash
+jupyter lab \
+    --port=8888 \
+    --allow-root \
+    --NotebookApp.token='' \
+    --NotebookApp.password=''
+```
+
+Add conda env to jupyter 
+
+```sh
+python -m ipykernel install --user --name <ur env name here> --display-name "<ur display name here>"
+```
+
 ## Bash
 
 find a file with wildcards
@@ -99,12 +115,6 @@ Delete old env
 
 ```sh
 conda env remove --name <ur env name here> 
-```
-
-Add conda env to jupyter 
-
-```sh
-python -m ipykernel install --user --name <ur env name here> --display-name "<ur display name here>"
 ```
 
 ## Git commands
