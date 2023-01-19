@@ -88,7 +88,7 @@ jupyter lab \
 Add conda env to jupyter 
 
 ```sh
-python -m ipykernel install --user --name <ur env name here> --display-name "<ur display name here>"
+python -m ipykernel install --user --name <ur_env_name_here> --display-name "<ur display name here>"
 ```
 
 ## Bash
@@ -108,13 +108,13 @@ unzip file.zip -d destination_folder
 Create new env
 
 ```sh
-conda create --name <ur env name here> python=3.8
+conda create --name <ur_env_name_here> python=3.8
 ```
 
 Delete old env
 
 ```sh
-conda env remove --name <ur env name here> 
+conda env remove --name <ur_env_name_here> 
 ```
 
 ## Git commands
