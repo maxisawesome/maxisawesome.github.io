@@ -131,6 +131,15 @@ Checkout branch from remote
 git checkout -b <branch_name> origin/<branch_name>
 ```
 
+## Copy files to and from remote
+From your local machine:
+```sh
+scp /path/to/local/file user@example.com:/home/name/dir
+
+scp user@example.com:/home/name/dir/file /path/to/local/dir
+```
+You can replace `user@example.com` with predefined aliases in `.ssh/config`
+
 ## F1 vs Precision vs Recall vs Accuracy
 
 Precision - percentage of positive predictions that were correct - True Positive / (False Positives + True Positives)
