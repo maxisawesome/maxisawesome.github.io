@@ -2,7 +2,7 @@
 layout: default
 Title: Home
 ---
-I'm Max. My main claim to fame is doing machine learning in industry, first at [KUNGFU.AI](https://kungfu.ai) applying ML for businesses, and now at [for.ai](https://cohere.for.ai/) doing research! My work has touched domains like computer vision, natural language processing, audio, and unsupervised learning. Here's a list of the cooler stuff I've done, during which my role always fell under "make the neural network work":
+I'm Max. My main claim to fame is doing machine learning in industry, first at [KUNGFU.AI](https://kungfu.ai) applying ML for businesses as an engineer, and now at [cohere.for.ai](https://cohere.for.ai/) doing research! My work has touched domains like computer vision, natural language processing, audio, and unsupervised learning. Here's a list of the cooler projects I've done, during which my role always fell under "make the neural network work":
 
 * an algorithm to judge the price of collectibles like Pokemon cards, baseball cards, or rare coins
 * a computer vision project identifying and pricing exterior damage on cars from cell phone photos
@@ -14,7 +14,9 @@ I'm Max. My main claim to fame is doing machine learning in industry, first at [
 * the algorithm that judges SXSW speaker applications alongside human judges
 * and more! that are less interesting and/or slightly secret
 
-I play ultimate frisbee on [Riverside](https://www.riversideultimate.org/), enjoy backpacking where I can forget about the anthropocene, have spent a whopping \<REDACTED> hours playing Dota 2 (go EG), lift, and hang out in my backyard with [my cat](../cat). I grew up here in Austin, went to school in Los Angeles, then moved back home. 
+At for.ai, I'm working on a research project around [data pruning](https://arxiv.org/abs/2206.14486).
+
+I play ultimate frisbee on [Riverside](https://www.riversideultimate.org/), enjoy backpacking where I can forget about the anthropocene, have spent a whopping \<REDACTED> hours playing Dota 2 (go ex-EG/SR), lift, and hang out in my backyard with [my cat](../cat). I grew up here in Austin, went to school in Los Angeles, then moved back home. 
 
 poor attempts at professionalism [here](https://www.linkedin.com/in/max-marion/)
 
