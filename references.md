@@ -62,8 +62,8 @@ Time something in seconds
 import time
 start = time.time()
 function_to_time()
-end = time.time()
-duration = end - start
+duration = time.time() - start
+print(duration)
 ```
 
 ## Jupyter Magic Commands
