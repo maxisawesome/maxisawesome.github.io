@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Writings 
+title: Writing 
 ---
 
-## Writings:
+## Writing:
 
 If I find myself thinking about something for long enough, I'll attempt to wrangle all the different points of view in my head into a succinct essay. I do write them with a theoretic audience in mind, and communicating anything is fun, but like most burgeoning artists, that audience has thus far been isolated to family and friends only. Feel free to send me some feedback!
 

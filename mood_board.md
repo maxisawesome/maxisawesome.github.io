@@ -16,10 +16,10 @@ Title: mood board
 }
 </style>
 <div class="myGallery">
-    <img src="{{ site.baseurl }}/assets/mood_board/20210308_082947.jpg" /> 
-    <img src="/assets/mood_board/20210408_225201.jpg"/> 
-    <img src="/assets/mood_board/20210802_045547.jpg"/> 
-    <img src="/assets/mood_board/20220105_165441.jpg"/> 
+    <img src="{{ site.baseurl }}/assets/mood_board/website1.png" /> 
+    <img src="/assets/mood_board/website2.jpeg"/> 
+    <img src="/assets/mood_board/website3.jpeg"/> 
+    <img src="/assets/mood_board/website4.jpg"/> 
 </div>
 </html>
 subject to change without notice and absolutely not guaranteed to be up to date
