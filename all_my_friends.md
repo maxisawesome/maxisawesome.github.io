@@ -13,17 +13,19 @@ It's a narrative track with murky references to a night out, or maybe [throwing 
 
 
 <span class="annotation" title="The opening line sets the scene for the in and our of 'tonight' vs 'all nights'. 'That's how it starts' kicks off the specific outing that this song refers to, but at the same time compares it to a standard formed by all the other nights and outings. There's also a sense that we're not too far from the middle of the distribution of 'nights.' This casual attitude and placement of the night kind of in the middle of all nights in terms of quality tugs against the palpable preciousness that the singer clearly has for the night. That interplay is what makes the poetry so potent, and over the course of the song as it builds to its sonic apex, the preciousness seeps into all those nights. The point it builds is that every moment with your friends is a treasure. This line sets the stage for all of that.">That's how it starts </br>
-We go back to your house</span> </br>
+We go back to your house </br> </span> </br>
+
 <span class="annotation" title="I've generally imagined 'the charts' as the music charts, as James Murphy is the lead singer of the band. I don't think it's particularly important. It continues to build the sense of friendship. He's giving credit to the friend as they 'figure it out,' or at the least try to _do_ something. ">You check the charts </br>
 And start to figure it out</span> </br>
+
 <span class="annotation" title="Prepare for an adventure! This subsection builds the anticipation of the evening being a fun one. It also alludes to the experience all parts have together.  ">And if it's crowded, all the better </br>
 Because we know we're gonna be up late </br>
 But if you're worried about the weather </br>
 Then you picked the wrong place to stay</span> </br>
-<span class="annotation" title="This is the end of the first verse, framing the description with the opening line, reminding us we're in the framework of one night.">That's how it starts</span> </br> </br>
-<span class="annotation" title="There's a music break in the song, so we start the next verse of rooting ourselves back in the night we're having.">And so it starts</span> </br>
+<span class="annotation" title="This is the end of the first verse, framing us with the opening line, reminding us of the storyline of the single night.">That's how it starts</span> </br> </br>
+<span class="annotation" title="We return to the lyrics after a music break, and we're rerooted into the framework from before.">And so it starts</span> </br>
 <span class="annotation" title="The night progresses, the squad is together in the car, and you're heading out.">You switch the engine on</span> </br>
-<span class="annotation" title="I only recently learned this is a Pink Floyd reference. The admission of age is more potent. I'm only 26, to be 27 this month, and sometimes when I'm heading downtown with friends, we'll begin at a bar, get a few drinks at this place as a starter, move to another place for who knows why, ambiance?, then meander a bit more before making it to the main destination of the night. It's a little superfluous, and the impression I get from this line is that James and his friends are over that. They wanna go dancing, they don't need the pregame destinations, and just beeline there. We're dated well past the beginning, nearer to the end than the start, ">We set controls for the heart of the sun </br>
+<span class="annotation" title="I only recently learned this is a Pink Floyd reference. The admission of age (which also come from referencing Pink Floyd) introduces a nostalgia. I'm about to be 27, and sometimes when I'm heading downtown with friends, we'll begin at a bar, get a few drinks at this place as a starter, move to another place for yknow, ambiance, then meander a bit more before making it to the main destination of the night. It's a little superfluous, and the impression I get from this line is that James and his friends are over that. They wanna go dancing, they don't need the pregame destinations, and just beeline there. We're dated well past the beginning, nearer to the end than the start, ">We set controls for the heart of the sun </br>
 One of the ways we show our age</span> </br>
 <span class="annotation" title="This is an example annotation.">And if the sun comes up, if the sun comes up, if the sun comes up</span> </br>
 <span class="annotation" title="This is an example annotation.">And I still don't wanna stagger home</span> </br>
