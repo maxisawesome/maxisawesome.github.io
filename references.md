@@ -185,7 +185,7 @@ Recall - percentage of positive class that was correctly identified - True Posit
 
 Accuracy - percentage of predictions that were correct - True Positive + True Negatives / (False Positives + False Negatives + True Positives + True Negatives)
 
-F1 - harmonic mean of precision and recall 
+F1 - 2 * (Precision * Recall) / (Precision + Recall) - harmonic mean of precision and recall 
 
 ![](/assets/posts/f1_precision_recall.png)
 
