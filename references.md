@@ -179,6 +179,8 @@ You can replace `user@example.com` with predefined aliases in `.ssh/config`
 
 ## F1 vs Precision vs Recall vs Accuracy
 
+![](/assets/posts/f1_recall_precision.png)
+
 Precision - percentage of positive predictions that were correct - True Positive / (False Positives + True Positives)
 
 Recall - percentage of positive class that was correctly identified - True Positive / (False Negatives + True Positives)
@@ -187,7 +189,6 @@ Accuracy - percentage of predictions that were correct - True Positive + True Ne
 
 F1 - 2 * (Precision * Recall) / (Precision + Recall) - harmonic mean of precision and recall 
 
-![](/assets/posts/f1_precision_recall.png)
 
 <!-- ## Neural Nets
 Linear Algebra

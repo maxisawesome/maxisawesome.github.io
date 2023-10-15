@@ -4,7 +4,7 @@ Title: Home
 ---
 I'm Max. I'm a Machine Learning Engineer and Researcher, first working at [KUNGFU.AI](https://kungfu.ai) applying ML as an engineer, then [cohere.for.ai](https://cohere.for.ai/) doing research, and now at [MosaicML](https://www.mosaicml.com/). My work has covered computer vision, natural language processing, audio, and unsupervised learning. I recently published a pre-print on [data pruning](https://arxiv.org/abs/2309.04564) for natural language pretraining at scale. 
 
-I enjoy backpacking where I can forget about the anthropocene, have spent a whopping \<REDACTED> hours playing Dota 2 (go zai, go rtz, go cr1t), lift, do a lil surfing and do a lil climbing. In Austin I played ultimate frisbee on [Riverside](https://www.riversideultimate.org/), and loved hanging out in my backyard with [my cat Callie](../cat). I grew up in Austin, went to school in Los Angeles, moved back home, and now live in San Francisco (hmu I just got here). 
+I enjoy backpacking where I can forget about the anthropocene, have spent a whopping \<REDACTED> hours playing Dota 2 (go zai, go rtz, go cr1t), lift, do a lil surfing, and do a lil climbing. In Austin I played ultimate frisbee on [Riverside](https://www.riversideultimate.org/), and loved hanging out in my backyard with [my cat, Callie](../cat). I grew up in Austin, went to school in Los Angeles, moved back home, and now live in San Francisco (hmu I just got here). 
 
 poor attempts at professionalism [here](https://www.linkedin.com/in/max-marion/)
 
