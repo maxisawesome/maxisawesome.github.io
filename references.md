@@ -190,6 +190,11 @@ Accuracy - percentage of predictions that were correct - True Positive + True Ne
 F1 - 2 * (Precision * Recall) / (Precision + Recall) - harmonic mean of precision and recall 
 
 
+## i.e. vs e.g.
+I.e. stands for id est or 'that is' and is used to clarify the statement before it. 
+E.g. means exempli gratia or 'for example. '
+
+
 <!-- ## Neural Nets
 Linear Algebra
 CNN math
