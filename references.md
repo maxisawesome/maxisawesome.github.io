@@ -194,6 +194,7 @@ F1 - 2 * (Precision * Recall) / (Precision + Recall) - harmonic mean of precisio
 I.e. stands for id est or 'that is' and is used to clarify the statement before it. 
 E.g. means exempli gratia or 'for example. '
 
+<!-- test -->
 
 <!-- ## Neural Nets
 Linear Algebra
