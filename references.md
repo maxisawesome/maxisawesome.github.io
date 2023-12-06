@@ -168,6 +168,12 @@ Checkout branch from remote
 git checkout -b <branch_name> origin/<branch_name>
 ```
 
+See staged changes
+```sh
+git diff --cached
+```
+
+
 ## Copy files to and from remote
 From your local machine:
 ```sh
