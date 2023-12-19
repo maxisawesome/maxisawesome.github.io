@@ -18,6 +18,18 @@ with open('data.json', 'w') as fp:
     json.dump(data, fp, sort_keys=True, indent=4)
 ```
 
+Read a .jsonl
+```
+import json
+
+file_path = 'dat.jsonl'
+
+with open(file_path, 'r', encoding='utf-8') as file:
+    for line in file:
+        data = json.loads(line)
+        print(data)
+```
+
 Pretty print a dictionary/JSON
 
 ```
