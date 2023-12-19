@@ -46,15 +46,15 @@ you gotta measure against something. establish a baseline, or at the very least 
 ### reduce cycle time (esp early experiments)
 if you can't iterate quickly and get results its gonna take a lifetime to get anywhere. Most deadlines come before that, so instead start small. Try your idea on a smaller model that takes, oh let's say 2.3 hours to train instead of 29 hours first and go from there. Obviously this is not always possible if you're studying something like scale, but it's a good idea nonetheless. This also applies to coding - if you script takes 6 minutes to run before you hit the bug, and then you run it to find your debugging code has a typo, you gotta wait another 6 minutes before you find anything out. That sucks. Figure out a way to make that loop way quicker.
 
-
 ### wtf is going on
 Engineering is very nice because usually it goes something like this:
 "hey I wish X existed but I noticed it does not. I will not go make X. I see that it requires a, b, and c. I think I will make a then b then c"
 and then you go do that.
 
 Research is more like this:
-"hey wtf is going on with X? looks like it could be a, b, c, or d. i guess we'll ablate them all out, then measure the results. I will now look at the data and interpret the results. now we are in any one of several situations: we found the cause and it was one of those variables, we found the cause and it was some bug in the code and this whole thing has been a wild goose chase, we cannot tell if any of a, b, c, or d are the cause, or at least it didn't seem like it from our experiments and we need to weigh continuing to investigate and spending more time on it with just giving up and not knowing, there was a bug in our experiments and we need to do it all again, 
+"hey wtf is going on with X? looks like it could be a, b, c, or d. i guess we'll ablate them all out, then measure the results. I will look at the data and interpret the results. we are now in any one of several situations: we found the cause and it was one of those variables, we found the cause and it was some bug in the code and this whole thing has been a wild goose chase, we cannot tell if any of a, b, c, or d are the cause, or at least it didn't seem like it from our experiments and we need to weigh continuing to investigate and spending more time on it with just giving up and not knowing, it was some combo of a, b, c, and d, or there was a bug in our experiments and we need to do it all again"
 
+The path is a lot less clear in research and you'll have to be comfortable with that. I was not very comfortable with it at all. It stressed me out quite a bit, but understanding it's part of the gig helped me out. 
 
 ### remote work is bad 
 at least it is for me. Too easy to get distracted, too easy to slip into "I'll do it later" and later is 8:30 pm. Too removed from my coworkers and too huddled in a den. happy if it works for you or parents or 
@@ -64,5 +64,5 @@ In some defense of wfh, it gave me three lovely years of days with [Callie](../c
 <!-- ### you do not need to have all the ideas -->
 
 ### don’t be so hard on yourself
-I've been told this for years. Fight the feeling that people giving you this advice are missing part of the context, are too easy, or don't have what it takes. You can try really hard at the same time as . This was the most important lesson I learned cohere.
+I've been told this for years. Fight the feeling that people giving you this advice are missing part of the context, are too easy, or don't have what it takes. You can try really hard and have it not hurt so much. This was the most important lesson I learned cohere.
 
