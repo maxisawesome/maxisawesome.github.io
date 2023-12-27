@@ -57,8 +57,7 @@ Research is more like this:
 "hey wtf is going on with X? looks like it could be a, b, c, or d. i guess we'll ablate them all out, then measure the results. I will look at the data and interpret the results. we are now in any one of several situations: we found the cause and it was one of those variables, we found the cause and it was some bug in the code and this whole thing has been a wild goose chase, we cannot tell if any of a, b, c, or d are the cause, or at least it didn't seem like it from our experiments and we need to weigh continuing to investigate and spending more time on it with just giving up and not knowing, it was some combo of a, b, c, and d, or there was a bug in our experiments and we need to do it all again"
 
 The path is a lot less clear in research and you'll have to be comfortable with that. I was not very comfortable with it at all. It stressed me out quite a bit, but understanding it's part of the gig helped me out. 
-<!-- 
-### remote work is bad 
+<!-- ### remote work is bad 
 at least it is for me. Too easy to get distracted, too easy to slip into "I'll do it later" and later is 8:30 pm. Too removed from my coworkers and too huddled in a den. happy if it works for you or parents or 
 
 In some defense of wfh, it gave me three lovely years of days with [Callie](../cat) at the end of her life. I'm very very thankful for that. -->
@@ -69,5 +68,3 @@ In some defense of wfh, it gave me three lovely years of days with [Callie](../c
 This was the most important lesson I learned at cohere: you don't need to be so critical of yourself. I've been told this for years but it never really stuck. Please, fight the feeling that people giving you this advice are missing part of the context, are being too soft, or have some other deficiency such that you can write off their advice. People famously [see the errors and ignore the positives](https://arstechnica.com/gaming/2017/01/gabe-newell-confirms-new-ip-coming-from-half-lifeportal-universe/#:~:text=%22The%20issue%20with,was%20less%20directive.%22) in their own work all the time. You don't need to do that!
 
 If you wouldn't say it to someone else, don't say it to yourself. Take that meme that says "Please don't say mean things about yourself, that's my friend you're talking about," literally. If the type of talk wouldn't help your friend get better, it won't help you get better. And being nicer to yourself will make existing feel a lot better.
-
-<!-- -->
