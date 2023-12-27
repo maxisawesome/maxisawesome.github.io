@@ -12,6 +12,8 @@ If I find myself thinking about something for long enough, I'll attempt to wrang
 
 ## Posts:
 
+[Research 101](../cohere_for_ai),  January 2023 
+
 [Life Advice from My First Job](../life_advice_from_kungfu),  January 2023 
 
 <!-- [I Am Simply So Amazed By Modern Technology](../modern_technology),  August 2022 -->

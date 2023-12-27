@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Life Lessons from the Scholar's Program"
+title: "Research 101"
 date:   2023-12-18 20:30:53 -0600
 categories: Machine Learning, Research
 ---
@@ -8,7 +8,7 @@ summary: journalesque reflection on my time at cohere.for.ai, mostly written for
 
 In October, I finished the [Cohere For AI Scholar's Program](https://txt.cohere.com/c4ai-scholars-program/) during which I published my first [paper](https://openreview.net/attachment?id=XUIYn3jo5T&name=pdf) (preprint version [here](https://arxiv.org/abs/2309.04564)). It was on data pruning - trying to measure and subsequently remove data from a language model's training set while maintaining or improving performance. 
 
-It was, thus far, the most potent 8 months of my life in terms of progress, learning, and self-understanding. A lot of the lessons were quite tangible, might be useful for you, and will certainly be useful for me again (at least two of of these were on my [kungfu.ai review](../life_advice_from_kungfu/) in some version)
+It was, thus far, the most potent 8 months of my life in terms of progress, learning, and self-understanding. A lot of the lessons were quite tangible, might be useful for you, and will certainly be useful for me again (at least two of of these were on my [kungfu.ai review](../life_advice_from_kungfu/) in some version). In a lot of ways it was like an accelerated first year of a PhD, just without all the academia and with less questions on "what should I research?" 
 
 ## get started, start coding
 I started off by digging through literature for about a week too long trying to find some magic bullet metric that would solve the problem on the first try. Obviously, this metric did not exist already, as it was the goal of the journey that the very smart people at the For AI lab had sent me on in the first place. Eventually I was prompted (lightly scolded perhaps) to "Just start coding!"
