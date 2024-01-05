@@ -22,7 +22,7 @@ Read a .jsonl
 ```
 import json
 
-file_path = 'dat.jsonl'
+file_path = 'data.jsonl'
 
 with open(file_path, 'r', encoding='utf-8') as file:
     for line in file:
