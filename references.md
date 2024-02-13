@@ -185,6 +185,17 @@ See staged changes
 git diff --cached
 ```
 
+See changes from latest commit
+
+```sh
+git diff HEAD~ HEAD
+```
+
+See changes from last X commits
+
+```sh
+git diff HEAD~X HEAD
+```
 
 ## Copy files to and from remote
 From your local machine:
