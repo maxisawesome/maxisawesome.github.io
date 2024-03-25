@@ -16,6 +16,8 @@ code [here](https://github.com/maxisawesome)
 
 my str8 up email (remove the hightech captcha): m m a r i o n 5 3 8 @ < r o b o t s  g o  a w a y > @ g m a i l 
 
+I was recently briefly featured in [this Scientific American] article on LLMs and their possibilities for religious applications.   
+
 Here's a list of the cooler projects I've worked on, during which my role always fell under "make the neural network work":
 
 * a preprint exploring various methods of judging language data as low or high quality ([paper link](https://arxiv.org/abs/2309.04564))
