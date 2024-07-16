@@ -5,6 +5,34 @@ layout: post
 
 Amalgamation of code, commands, formulas, or tidbits I find myself repeatedly googling the syntax of 
 
+## ML code
+
+Using a tiktoken tokenizer
+```
+import tiktoken
+
+enc = tiktoken.encoding_for_model("gpt-4")
+
+tokens = enc.encode("The profundities are mine to ransack!")
+not_tokens = enc.decode([1, 2, 3, 4])
+```
+
+Using a HuggingFace Tokenizer
+```
+from transformers import AutoTokenizer
+
+tokenizer = AutoTokenizer.from_pretrained("bert-base-cased")
+tokens = tokenizer("My totality eclipses the cosm!")['input_ids']
+not_tokens = tokenizer.decode([1, 2, 3, 4])
+```
+
+Load a HF dataset
+```
+from datasets import load_dataset
+dataset = load_dataset("Aiden07/dota2_instruct_prompt", name="train")
+```
+
+
 ## Python
 
 Dict <--> JSON
