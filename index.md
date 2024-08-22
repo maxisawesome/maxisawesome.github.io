@@ -2,7 +2,8 @@
 layout: default
 Title: Home
 ---
-I'm Max. I'm a Machine Learning Engineer and Researcher, first working at [KUNGFU.AI](https://kungfu.ai) applying ML as an engineer, then [cohere.for.ai](https://cohere.for.ai/) doing research, and now at [MosaicML](https://www.mosaicml.com/). I published a paper on [data pruning](https://openreview.net/pdf?id=XUIYn3jo5T) (the longer pre-print [here](https://arxiv.org/abs/2309.04564)) for LLM pretraining, and my other work has covered LLM evaluations, computer vision projects, audio, and more.
+### Howdy
+I'm Max. I'm a Machine Learning Engineer and Researcher, first working at [KUNGFU.AI](https://kungfu.ai) applying ML as an engineer, then [cohere.for.ai](https://cohere.for.ai/) doing research, and now at [MosaicML](https://www.mosaicml.com/). I published a paper on [data pruning](https://openreview.net/pdf?id=XUIYn3jo5T) (the longer pre-print [here](https://arxiv.org/abs/2309.04564)) for LLM pretraining, and my other work has covered LLM evaluations, computer vision, audio, and more.
 
 I enjoy backpacking where I can forget about the anthropocene, have spent a whopping \<REDACTED> hours playing Dota 2 (go zai, go rtz, go cr1t), lift, surf, and spend as much time outside as I can. In Austin I played ultimate frisbee on [Riverside](https://www.riversideultimate.org/) and loved hanging out in my backyard with [my cat, Callie](../cat). I grew up in Austin, went to school in Los Angeles, moved back home, and now live in San Francisco. 
 
@@ -16,7 +17,7 @@ code [here](https://github.com/maxisawesome)
 
 my str8 up email (remove the hightech captcha): m m a r i o n 5 3 8 @ < r o b o t s  g o  a w a y > @ g m a i l 
 
-I was recently briefly featured in [this Scientific American] article on LLMs and their possibilities for religious applications.   
+I was recently briefly featured in [this Scientific American](https://www.scientificamerican.com/article/the-god-chatbots-changing-religious-inquiry/) article on LLMs and their possibilities for religious applications and [this Wall Street Journal](https://www.wsj.com/sports/olympics/noah-lyles-olympics-100m-ecab1749?st=i9sza7f1tc1b5us&reflink=desktopwebshare_permalink) article on Noah Lyles and the rise nerds.
 
 Here's a list of the cooler projects I've worked on, during which my role always fell under "make the neural network work":
 
