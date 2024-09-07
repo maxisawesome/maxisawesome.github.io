@@ -7,6 +7,43 @@ Amalgamation of code, commands, formulas, or tidbits I find myself repeatedly go
 
 ## ML code
 
+The most basic calls to openai client
+```
+import openai
+client = openai.OpenAI(base_url=base_url, api_key=os.environ['OPENAI_API_KEY']) 
+prompt = "your prompt here!"
+response = client.chat.completions.create(
+    model=model,
+    messages=[{'role': 'user', 'content': prompt}],
+    max_tokens=max_tokens,
+)
+print(response.choices[0].message.content)
+
+```
+<!-- 
+Call openai client with threads
+```
+import openai
+
+shared_client = OpenAI(base_url=base_url, api_key=os.environ['OPENAI_API_KEY'])
+
+def generate(content: str):
+    return shared_client.chat.completions.create(
+        model=model,
+        messages=[{'role': 'user', 'content': content}],
+        max_tokens=max_tokens,
+    ).choices[0].message.content
+
+with ThreadPoolExecutor(max_workers=12) as executor:
+    futures = {executor.submit(generate, content): index for index, row in df.iterrows()}
+    for future in tqdm(as_completed(futures)):
+        index = futures[future]
+        result = future.result()
+        
+        df.loc[index, f'{model}_response'] = result
+
+``` -->
+
 Using a tiktoken tokenizer
 ```
 import tiktoken
