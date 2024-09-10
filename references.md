@@ -10,8 +10,13 @@ Amalgamation of code, commands, formulas, or tidbits I find myself repeatedly go
 The most basic calls to openai client
 ```
 import openai
-client = openai.OpenAI(base_url=base_url, api_key=os.environ['OPENAI_API_KEY']) 
+base_url = None # if you need to specify a non-OpenAI model, set this to a base_url
+api_key = os.environ['OPENAI_API_KEY'] # This will actually happen by default, but keeping the boilerplate here in case you need some other api key.
+client = openai.OpenAI(base_url=base_url, api_key=api_key) 
+
 prompt = "your prompt here!"
+model = "gpt-4o-mini"
+max_tokens = 128
 response = client.chat.completions.create(
     model=model,
     messages=[{'role': 'user', 'content': prompt}],
@@ -20,29 +25,40 @@ response = client.chat.completions.create(
 print(response.choices[0].message.content)
 
 ```
-<!-- 
+
 Call openai client with threads
 ```
-import openai
+from openai import OpenAI
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
-shared_client = OpenAI(base_url=base_url, api_key=os.environ['OPENAI_API_KEY'])
+shared_client = OpenAI(base_url=None, api_key=os.environ['OPENAI_API_KEY'])
 
 def generate(content: str):
     return shared_client.chat.completions.create(
-        model=model,
+        model="gpt-4o-mini",
         messages=[{'role': 'user', 'content': content}],
-        max_tokens=max_tokens,
+        max_tokens=512,
     ).choices[0].message.content
 
-with ThreadPoolExecutor(max_workers=12) as executor:
-    futures = {executor.submit(generate, content): index for index, row in df.iterrows()}
-    for future in tqdm(as_completed(futures)):
-        index = futures[future]
-        result = future.result()
-        
-        df.loc[index, f'{model}_response'] = result
+prompts = [
+    "I am a beacon of knowledge blazing out across a black sea of ignorance.", 
+    "I'm coming friends, wait for me!", 
+    "Axe is a pig?", 
+    "Lich gonna have your mana!", 
+]
 
-``` -->
+results = {}
+
+
+# Change max_workers here
+with ThreadPoolExecutor(max_workers=12) as executor:
+    futures = {executor.submit(generate, prompt): index for index, prompt in enumerate(prompts)}
+    for future in as_completed(futures):
+        i = futures[future]
+        result = future.result()
+        results[i] = result
+
+```
 
 Using a tiktoken tokenizer
 ```
