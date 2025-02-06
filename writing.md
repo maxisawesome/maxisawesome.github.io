@@ -8,6 +8,8 @@ title: Writing
 long posts
 <!-- If I find myself thinking about something for long enough, I'll wrangle all the points in my head into text. There is a theoretic audience in mind, but like most burgeoning artists, the real audience thus far has been isolated to family and friends. Feel free to send me some feedback. -->
 
+NOTE: I removed the link to this from the website bcus I never added too many pieces of writing and I decided the suck. Congrats u found a super secret easter egg!! Well done! lmk what u think of the writing i guess
+
 ## Posts:
 
 [Research 101](../cohere_for_ai),  December 2023 
