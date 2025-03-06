@@ -3,7 +3,7 @@ layout: default
 Title: Home
 ---
 ### Howdy
-I'm Max. I'm a Machine Learning Engineer and Researcher, first working at [KUNGFU.AI](https://kungfu.ai) applying ML as an engineer, then [cohere.for.ai](https://cohere.for.ai/) doing research, and now at [MosaicML](https://www.mosaicml.com/). I published a paper on [data pruning](https://openreview.net/pdf?id=XUIYn3jo5T) (the longer pre-print [here](https://arxiv.org/abs/2309.04564)) for LLM pretraining, and my other work has covered LLM evaluations, computer vision, audio, and more.
+I'm Max. I'm a Machine Learning Engineer and Researcher, first working at [KUNGFU.AI](https://kungfu.ai) applying ML as an engineer, then [cohere.for.ai](https://cohere.for.ai/) doing research, and finally at [MosaicML](https://www.mosaicml.com/). I published a paper on [data pruning](https://openreview.net/pdf?id=XUIYn3jo5T) (the longer pre-print [here](https://arxiv.org/abs/2309.04564)) for LLM pretraining, and my other work has covered LLM evaluations, computer vision, audio, and more.
 
 I enjoy backpacking where I can forget about the anthropocene, have spent a whopping \<REDACTED> hours playing Dota 2 (go zai, go rtz, go cr1t), lift, surf, and spend as much time outside as I can. In Austin I played ultimate frisbee on [Riverside](https://www.riversideultimate.org/) and loved hanging out in my backyard with [my cat, Callie](../cat). I grew up in Austin, went to school in Los Angeles, moved back home, and now live in San Francisco. 
 
