@@ -17,12 +17,13 @@ code [here](https://github.com/maxisawesome)
 
 my str8 up email (remove the hightech captcha): m m a r i o n 5 3 8 @ < r o b o t s  g o  a w a y > @ g m a i l 
 
-I was recently briefly featured in [this Scientific American](https://www.scientificamerican.com/article/the-god-chatbots-changing-religious-inquiry/) article on LLMs and their possibilities for religious applications and [this Wall Street Journal](https://www.wsj.com/sports/olympics/noah-lyles-olympics-100m-ecab1749?st=i9sza7f1tc1b5us&reflink=desktopwebshare_permalink) article on Noah Lyles and the rise nerds.
+I was recently briefly featured in [this Scientific American](https://www.scientificamerican.com/article/the-god-chatbots-changing-religious-inquiry/) article on LLMs and their possibilities for religious applications and [this Wall Street Journal](https://www.wsj.com/sports/olympics/noah-lyles-olympics-100m-ecab1749?st=i9sza7f1tc1b5us&reflink=desktopwebshare_permalink) article on Noah Lyles and the rise of nerds.
 
 Here's a list of the cooler projects I've worked on, during which my role always fell under "make the neural network work":
 
-* a preprint exploring various methods of judging language data as low or high quality ([paper link](https://arxiv.org/abs/2309.04564))
-* LLM eval for SOTA LLMs currently in production
+* LLM evals for SOTA LLMs 
+* Hallucination detection and correction 
+* my paper exploring various methods of judging language data as low or high quality ([paper link](https://arxiv.org/abs/2309.04564))
 * an algorithm to judge the price of collectibles like Pokemon cards, baseball cards, or rare coins
 * a computer vision project identifying and pricing exterior damage on cars from cell phone photos
 * a model for processing ambient rainforest noise to find gunshots, chainsaws, and vehicles indicating poaching and logging
