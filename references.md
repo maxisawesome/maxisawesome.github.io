@@ -154,6 +154,11 @@ new_list = [x for x in list]
 new_list = [x for x in list if x <3]
 new_list = [x if x <3 else y for x in list ]
 ```
+Double List Comp with conditional
+```
+# Get coords of all 1s in a grid
+ones = [(r, c) for r, row in enumerate(grid) for c, val in enumerate(row) if val == "1"]
+```
 
 Debugging Interpreter 
 ```
