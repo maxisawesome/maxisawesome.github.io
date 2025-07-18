@@ -2,18 +2,18 @@
 layout: default
 Title: Home
 ---
-### Howdy
-I'm Max. I'm a Machine Learning Engineer and Researcher, first working at [KUNGFU.AI](https://kungfu.ai) applying ML as an engineer, then [cohere.for.ai](https://cohere.for.ai/) doing research, and finally at [MosaicML](https://www.mosaicml.com/). I published a paper on [data pruning](https://openreview.net/pdf?id=XUIYn3jo5T) (the longer pre-print [here](https://arxiv.org/abs/2309.04564)) for LLM pretraining, and my other work has covered LLM evaluations, computer vision, audio, and more.
+## Howdy
+This is the brief personal website of Max Marion. I'm a Machine Learning Researcher, most recently at [MosaicML / Databricks](https://www.databricks.com/research/mosaic). Before that I was a Research Scholar at [cohere labs](https://cohere.com/research), and earlier an MLE at [KUNGFU.AI](https://kungfu.ai). I published a paper on [data pruning](https://openreview.net/pdf?id=XUIYn3jo5T) (the longer pre-print [here](https://arxiv.org/abs/2309.04564)) for LLM pretraining. My work has covered LLM evaluations and faithfulness, computer vision, audio, and more.
 
-I enjoy backpacking where I can forget about the anthropocene, have spent a whopping \<REDACTED> hours playing Dota 2 (go zai, go rtz, go cr1t), lift, surf, and spend as much time outside as I can. In Austin I played ultimate frisbee on [Riverside](https://www.riversideultimate.org/) and loved hanging out in my backyard with [my cat, Callie](../cat). I grew up in Austin, went to school in Los Angeles, moved back home, and now live in San Francisco. 
+My motion based hobbies include backpacking where I can forget about the anthropocene, surfing, lift, and playing ultimate frisbee. My more stationary hobbies include puzzle games of rougelikes, reading, and piano. In Austin I played ultimate frisbee on [Riverside](https://www.riversideultimate.org/) and loved hanging out in my backyard with [my cat, Callie](../cat). I grew up in Austin, went to school in [Los Angeles](https://www.oxy.edu/), moved back home, and now as of October 2023 live in San Francisco. 
 
-poor attempts at professionalism [here](https://www.linkedin.com/in/max-marion/)
+my poor attempts at professionalism are [here](https://www.linkedin.com/in/max-marion/)
 
-worst takes [here](https://twitter.com/maxisawesome538)
+my worst takes are [here](https://twitter.com/maxisawesome538)
 
-research only [here](https://twitter.com/maxdoesresearch)
+research only is [here](https://twitter.com/maxdoesresearch)
 
-code [here](https://github.com/maxisawesome)
+my code is [here](https://github.com/maxisawesome)
 
 my str8 up email (remove the hightech captcha): m m a r i o n 5 3 8 @ < r o b o t s  g o  a w a y > @ g m a i l 
 

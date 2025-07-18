@@ -3,19 +3,23 @@ Title: Toplists
 layout: post
 ---
 
-all of these are sets not lists
+# toplists
+
+sets not lists
 
 Favorite games:
 * The Witness 
-* Dota 2
-* Deadlock
 * Outer Wilds
 * Baba is You
-* Portal 
-* The Talos Principle
+* Portal 1 + 2
+* The Talos Principle 1 + 2 but especially 1
+* Dota 2
+* Deadlock
 * Slay The Spire
+* Hades
 * TF2
 * Half-Life 2
+* honestly anything valve makes they're pretty good at making games
 
 <!-- Favorite Hobbies:
 * Surfing
@@ -46,6 +50,7 @@ Favorite Albums:
 
 <!-- Favorite Books:
 * Cat's Cradle - Kurt Vonnegut
+* 
 *  -->
 
 Exciting areas of research:
