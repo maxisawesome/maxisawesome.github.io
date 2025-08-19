@@ -12,7 +12,7 @@ long posts
 
 ## Posts:
 
-[Tips for Applying to the Cohere Labs Research Scholar's Program](../cohere_application), August 2025
+[Tips for Applying to the Cohere Labs Research Scholars Program](../cohere_application), August 2025
 
 [Research 101](../cohere_for_ai),  December 2023 
 

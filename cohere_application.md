@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Applying to the Cohere Labs Research Scholar's Program"
+title: "Applying to the Cohere Labs Research Scholars Program"
 date:   2025-08-18 19:30:53 -0600
 categories: Machine Learning, Research
 ---
-Every year I on twitter I endorse the Cohere Labs Scholar's Program when applications open up and every year I get about 30 DMs asking for advice on applying. Ninety percent of the advice is the same, so I've written that up here. I was part of the first cohort, and things are almost certainly different these days, but I'm sure most of the advice still applies. The paper I wrote at Cohere can be found [here](https://arxiv.org/abs/2309.04564). You can read some reflections I wrote about the program [here](../cohere_for_ai).
+Every year I on twitter I endorse the Cohere Labs Scholars Program when applications open up and every year I get about 30 DMs asking for advice on applying. Ninety percent of the advice is the same, so I've written that up here. I was part of the first cohort, and things are almost certainly different these days, but I'm sure most of the advice still applies. The paper I wrote at Cohere can be found [here](https://arxiv.org/abs/2309.04564). You can read some reflections I wrote about the program [here](../cohere_for_ai).
 
 ## FAQ
 
@@ -62,6 +62,6 @@ Citing explicit actions here is best. What are some situations you've been in th
 
 It’s free real estate (i.e. if you want to make your application as strong as possible, then getting the maximum points here is essential). I think I spent like 60 hours on the take home coding exam and reimplemented SVD from scratch in numpy. As I learned in a later interview in the application process they absolutely did not intend for you to do that. They just wanted you to use `np.svd` . Regardless it really impressed them and helped me get through that portion. As I recall, the coding challenge was a major filter for applicants, and our goal here is for you not to get filtered out.
 
-### Show up as often as possible to Cohere Labs events that are related to the scholar's program. 
+### Show up as often as possible to Cohere Labs events that are related to the scholars program. 
 
 Ask questions, be present, be yourself (an important part - having some personality is good), and be a part of the community. Be someone in the discord. It’s an easy way to boost your chances and has merit completely separately from the application process. Cohere Labs is a really strong, active, and cool community. Being a part of it is worth your while even if you’re not selected as a scholar and has it’s own opportunities. If you were applying to a PhD, you’d want to have reached out to the professor you’d work under before your application crosses their desk. All that being said, it’s useful for getting into the program. You want them to recognize your name when they read your application for the first time.
