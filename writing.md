@@ -8,9 +8,11 @@ title: Writing
 long posts
 <!-- If I find myself thinking about something for long enough, I'll wrangle all the points in my head into text. There is a theoretic audience in mind, but like most burgeoning artists, the real audience thus far has been isolated to family and friends. Feel free to send me some feedback. -->
 
-NOTE: I removed the link to this from the website bcus I never added too many pieces of writing and I decided the suck. Congrats u found a super secret easter egg!! Well done! lmk what u think of the writing i guess
+<!-- NOTE: I removed the link to this from the website bcus I never added too many pieces of writing and I decided the suck. Congrats u found a super secret easter egg!! Well done! lmk what u think of the writing i guess -->
 
 ## Posts:
+
+[Tips for Applying to the Cohere Labs Research Scholar's Program](../cohere_application), August 2025
 
 [Research 101](../cohere_for_ai),  December 2023 
 
@@ -29,3 +31,4 @@ NOTE: I removed the link to this from the website bcus I never added too many pi
 [The 5 Best Things I Saw at NeurIPS 2019](../2019-Neurips),  December 2019
 
 [Reflections on my First NeurIPS](/2018-12-13-NeurIPS-A-Beginners-Guide),  December 2018
+
