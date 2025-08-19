@@ -14,7 +14,7 @@ It’s an introduction to research, much like a PhD, but only one year and you h
 
 ### What is the program like?
 
-I was paired with a mentor (the illustrious Marzieh Fadaee) who helped me throughout my eight months with Cohere. She helped me prioritize experiments, understand the process of researching a hypothesis, pursue new ideas, NOT pursue new ideas because I needed to finish up with the old ideas, and actually write the damn results into a paper that could be published. 
+I was paired with a mentor (the illustrious Marzieh Fadaee) who helped me throughout my eight months with Cohere. She helped me prioritize experiments, understand the process of researching a hypothesis, pursue new ideas, NOT pursue new ideas because I needed to finish up with the old ideas, and actually write the results into a paper that could be published. 
 
 ### Is it full time?
 
