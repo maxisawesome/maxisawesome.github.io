@@ -34,9 +34,6 @@ author:
   name:           'Max Marion'
   url:            https://twitter.com/maxisawesome538
 
-gems: [jekyll-paginate]
-paginate: 3 
-paginate_path: "page:num"
 
 # Custom vars
 version:          0.1.0
