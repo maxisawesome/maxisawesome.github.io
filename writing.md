@@ -12,6 +12,8 @@ long posts
 
 ## Posts:
 
+[manifesto](../manifesto), May 2026
+
 [Tips for Applying to the Cohere Labs Research Scholars Program](../cohere_application), August 2025
 
 [Research 101](../cohere_for_ai),  December 2023 
