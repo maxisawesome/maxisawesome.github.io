@@ -3,6 +3,9 @@ title: References
 layout: post
 ---
 
+relic of a lost time, eh? remember when we used to write code lol
+
+
 Amalgamation of code, commands, formulas, or tidbits I find myself repeatedly googling the syntax of 
 
 ## ML code
