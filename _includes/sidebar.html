@@ -12,6 +12,203 @@
     <a class="sidebar-nav-item" href="{{ site.baseurl }}/cat">Cat</a>
   </nav>
 
+  <div class="lo-wrap">
+    <div id="lo-board" class="lo-board" role="grid" aria-label="Lights Out puzzle"></div>
+    <div class="lo-min">
+      <div>puzzle minimum: <strong id="lo-start-min">0</strong></div>
+      <div>minimum from here: <strong id="lo-min-count">0</strong></div>
+      <div>your clicks: <strong id="lo-clicks">0</strong></div>
+    </div>
+  </div>
+
+  <style>
+    .lo-wrap { margin: 1.5rem 0; }
+    .lo-board {
+      width: 150px;
+      height: 150px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 6px;
+      -webkit-user-select: none;
+      user-select: none;
+    }
+    .lo-cell {
+      border: none;
+      border-radius: 8px;
+      background: #dfe3ee;
+      cursor: pointer;
+      box-shadow: inset 0 -3px 0 rgba(0,0,0,.08);
+      transition: background .12s, box-shadow .12s, transform .05s;
+    }
+    .lo-cell:hover { transform: scale(0.95); }
+    .lo-cell.on {
+      background: #16213e;
+      box-shadow: inset 0 -3px 0 rgba(0,0,0,.25), 0 0 12px rgba(22,33,62,.45);
+    }
+    .lo-cell:focus-visible { outline: 2px solid #e94560; outline-offset: 2px; }
+    .lo-board.lo-won .lo-cell { box-shadow: 0 0 14px rgba(233,69,96,.6); }
+    .lo-min {
+      margin-top: .6rem;
+      font-size: .72rem;
+      line-height: 1.7;
+      color: #16213e;
+      white-space: nowrap;
+    }
+    /* Fixed-width digits so changing counts don't reflow / shift the board. */
+    .lo-min strong {
+      display: inline-block;
+      min-width: 1.4em;
+      text-align: right;
+    }
+  </style>
+
+  <script>
+  (function () {
+    var SIZE = 4;
+    var N = SIZE * SIZE;
+    var board = document.getElementById("lo-board");
+    var minEl = document.getElementById("lo-min-count");
+    var startMinEl = document.getElementById("lo-start-min");
+    var clicksEl = document.getElementById("lo-clicks");
+    var cells = [];
+    var state = [];
+    var clicks = 0;
+    var locked = false;
+
+    function idx(r, c) { return r * SIZE + c; }
+
+    // Precompute the toggle matrix: toggleMat[i] is a bitmask of cells flipped by clicking i.
+    var toggleMat = [];
+    for (var i = 0; i < N; i++) {
+      var mask = 0;
+      var mr = Math.floor(i / SIZE), mc = i % SIZE;
+      [[0, 0], [0, 1], [0, -1], [1, 0], [-1, 0]].forEach(function (d) {
+        var nr = mr + d[0], nc = mc + d[1];
+        if (nr >= 0 && nr < SIZE && nc >= 0 && nc < SIZE) mask |= 1 << (nr * SIZE + nc);
+      });
+      toggleMat.push(mask);
+    }
+
+    function popcount(x) { var c = 0; while (x) { c++; x &= x - 1; } return c; }
+
+    // Minimum clicks to solve the current board, over GF(2).
+    // The 4x4 matrix is NOT invertible (4-dim null space), so a solvable board has
+    // 16 solutions. We find a particular solution + the free columns, then enumerate
+    // the coset (2^free combos) and return the smallest Hamming weight.
+    var MASK16 = (1 << N) - 1;
+    function minMoves() {
+      var b = 0;
+      for (var k = 0; k < N; k++) if (state[k]) b |= 1 << k;
+      var rows = toggleMat.map(function (row, r) { return row | (((b >> r) & 1) << N); });
+      var pivotCol = [], rank = 0;
+      for (var col = 0; col < N && rank < N; col++) {
+        var piv = -1;
+        for (var r = rank; r < N; r++) { if ((rows[r] >> col) & 1) { piv = r; break; } }
+        if (piv === -1) continue;
+        var tmp = rows[rank]; rows[rank] = rows[piv]; rows[piv] = tmp;
+        for (var r2 = 0; r2 < N; r2++) {
+          if (r2 !== rank && ((rows[r2] >> col) & 1)) rows[r2] ^= rows[rank];
+        }
+        pivotCol[rank] = col; rank++;
+      }
+      var isPivot = new Array(N).fill(false);
+      for (var i = 0; i < rank; i++) isPivot[pivotCol[i]] = true;
+      var freeCols = [];
+      for (var c = 0; c < N; c++) if (!isPivot[c]) freeCols.push(c);
+
+      function buildX(freeMask) {
+        var x = 0;
+        for (var f = 0; f < freeCols.length; f++) if ((freeMask >> f) & 1) x |= 1 << freeCols[f];
+        for (var i = rank - 1; i >= 0; i--) {
+          var p = pivotCol[i];
+          var val = (rows[i] >> N) & 1;
+          var coeff = (rows[i] & MASK16) & ~(1 << p);
+          var inter = coeff & x, par = 0;
+          while (inter) { par ^= 1; inter &= inter - 1; }
+          if (val ^ par) x |= 1 << p;
+        }
+        return x;
+      }
+
+      var best = 99, combos = 1 << freeCols.length;
+      for (var m = 0; m < combos; m++) {
+        var w = popcount(buildX(m));
+        if (w < best) best = w;
+      }
+      return best;
+    }
+
+    function render() {
+      for (var i = 0; i < state.length; i++) {
+        cells[i].classList.toggle("on", state[i]);
+        cells[i].setAttribute("aria-pressed", state[i] ? "true" : "false");
+      }
+      minEl.textContent = minMoves();
+      clicksEl.textContent = clicks;
+    }
+
+    function isSolved() {
+      return state.every(function (v) { return !v; });
+    }
+
+    function press(r, c) {
+      var deltas = [[0, 0], [-1, 0], [1, 0], [0, -1], [0, 1]];
+      for (var k = 0; k < deltas.length; k++) {
+        var nr = r + deltas[k][0], nc = c + deltas[k][1];
+        if (nr >= 0 && nr < SIZE && nc >= 0 && nc < SIZE) {
+          state[idx(nr, nc)] = !state[idx(nr, nc)];
+        }
+      }
+    }
+
+    function newPuzzle() {
+      var scrambles = 5 + Math.floor(Math.random() * (SIZE * SIZE - 5));
+      do {
+        state = new Array(SIZE * SIZE).fill(false);
+        for (var n = 0; n < scrambles; n++) {
+          press(Math.floor(Math.random() * SIZE), Math.floor(Math.random() * SIZE));
+        }
+      } while (isSolved());
+      clicks = 0;
+      startMinEl.textContent = minMoves();
+      render();
+    }
+
+    function onClick(r, c) {
+      if (locked) return;
+      press(r, c);
+      clicks++;
+      render();
+      if (isSolved()) {
+        locked = true;
+        board.classList.add("lo-won");
+        setTimeout(function () {
+          board.classList.remove("lo-won");
+          newPuzzle();
+          locked = false;
+        }, 650);
+      }
+    }
+
+    for (var r = 0; r < SIZE; r++) {
+      for (var c = 0; c < SIZE; c++) {
+        (function (r, c) {
+          var btn = document.createElement("button");
+          btn.type = "button";
+          btn.className = "lo-cell";
+          btn.setAttribute("role", "gridcell");
+          btn.setAttribute("aria-label", "Row " + (r + 1) + ", column " + (c + 1));
+          btn.addEventListener("click", function () { onClick(r, c); });
+          board.appendChild(btn);
+          cells.push(btn);
+        })(r, c);
+      }
+    }
+
+    newPuzzle();
+  })();
+  </script>
+
   <div class="sidebar-social">
     <a href="https://www.twitter.com/maxisawesome538" aria-label="Twitter">
       <svg class="social-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
