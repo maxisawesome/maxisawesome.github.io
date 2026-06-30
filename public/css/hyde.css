@@ -56,10 +56,10 @@ html {
  */
 
 .sidebar {
-  text-align: center;
-  padding: 2rem 1rem;
-  color: rgba(255, 255, 255, .5);
-  background-color: #202020;
+  text-align: left;
+  padding: 2rem 1.5rem;
+  color: #16213e;
+  background: none;
 }
 
 @media (min-width: 48em) {
@@ -68,63 +68,71 @@ html {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 18rem;
-    text-align: left;
+    width: 14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
 
 /* Sidebar links */
 .sidebar a {
-  color: #fff;
+  color: #16213e;
 }
 
 .social-icon {
   width: 1.1rem;
   height: 1.1rem;
   vertical-align: middle;
-  margin-right: 0.4rem;
 }
 
 /* About section */
 .sidebar-about h1 {
-  color: #fff;
-  margin-top: 0;
-  font-family: "Abril Fatface", serif;
-  font-size: 3.25rem;
+  color: #16213e;
+  margin: 0 0 1.5rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-transform: lowercase;
+  letter-spacing: -0.01em;
 }
 
 /* Sidebar nav */
 .sidebar-nav {
-  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
 }
 
 .sidebar-nav-item {
-  display: block;
-  line-height: 1.75;
+  line-height: 1.9;
+  color: #16213e;
+  opacity: .75;
 }
 
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
+  opacity: 1;
   text-decoration: underline;
 }
 
 .sidebar-nav-item.active {
+  opacity: 1;
   font-weight: bold;
 }
 
-/* Sticky sidebar
- *
- * Add the `sidebar-sticky` class to the sidebar's container to affix it the
- * contents to the bottom of the sidebar in tablets and up.
- */
+/* Social icons */
+.sidebar-social {
+  display: flex;
+  gap: .75rem;
+}
 
-@media (min-width: 48em) {
-  .sidebar-sticky {
-    position: absolute;
-    right: 1rem;
-    bottom: 1rem;
-    left: 1rem;
-  }
+.sidebar-social a {
+  opacity: .75;
+}
+
+.sidebar-social a:hover {
+  opacity: 1;
 }
 
 
@@ -142,14 +150,14 @@ a.sidebar-nav-item:focus {
 @media (min-width: 48em) {
   .content {
     max-width: 38rem;
-    margin-left: 20rem;
+    margin-left: 15rem;
     margin-right: 2rem;
   }
 }
 
 @media (min-width: 64em) {
   .content {
-    margin-left: 22rem;
+    margin-left: 17rem;
     margin-right: 4rem;
   }
 }
@@ -273,7 +281,7 @@ a.sidebar-nav-item:focus {
 
 /* Gray/black */
 .theme-base-10 .sidebar {
-  background-color: #16213e;
+  background: none;
 }
 
 .theme-base-10 .content a,
