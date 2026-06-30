@@ -3,26 +3,35 @@ layout: post
 Title: Close Reading of All My Friends by LCD Soundsystem
 ---
 
-All My Friends, by LCD Soundsystem. My favorite song of all time. The crux of how this song touches my soul is the mixture of how well the music fits the poetry, how it wields a feeling of "current nostalgia," an understanding of your current moment and how you're gonna miss right now in the future, and fits for everyone.
+All My Friends by LCD Soundsystem is my favorite song of all time. It's glory (glamour?) comes from it's perfect pairing of lyrical content and tone of music, how it wields a nostalgia for right now, and fits for everyone. It's both a celebration of deep, deep friendships and a lament towards what's needed to recognize its value.
 
-It's a narrative track with murky references to a night out, or maybe [throwing a house part](https://www.youtube.com/watch?v=Cj8JrQ9w5jY). It's both *a* night and *to*night, and this contrast to builds the emotive backend of the song. Sure, this night is one of many, but in the end we know that "many" is a finite number.
+This will be a close reading of that poetry, in an attempt to explain how and why this song means something to me. 
 
+Here's the music video if you'd like to listen along while you read. I offer no analysis of the artistic meaning behind the video itself. 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uDRLW748j68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-(There's a music video too, but it's not the point of this analysis.)
 
-Hover over the <span class="annotation" data-annotation="Like this!">dotted text</span> to read annotations.
+Hover over the <span class="annotation" data-annotation="this text contains the secrets of Art. Nice.">dotted text</span> to read annotations.
 
 
 ## All My Friends by LCD Soundsystem:
 
+Let's set the stage. There's a narrative in the song with murky references to a night out, or maybe [throwing a house part](https://www.youtube.com/watch?v=Cj8JrQ9w5jY). The main voice in the song stands for some allegory of everyone and no one at the same time. 
 
-<span class="annotation" data-annotation="The opening line sets the scene for the in and out of 'tonight' vs 'all nights'. 'That's how it starts' kicks off the specific outing that this song refers to, but at the same time compares it to a standard formed by all the other nights and outings. This casual attitude and placement of the night kind of in the middle of all nights in terms of quality tugs against the palpable preciousness that the singer clearly has for the night. That interplay is what makes the poetry so potent, and over the course of the song as it builds to its sonic apex, the preciousness seeps into all those nights. The point it builds is that every moment with your friends is a treasure. This line sets the stage for all of that.">That's how it starts
+It's both *a* night and *to*night, a contrast that builds the emotional backend of the song. It's also consistently referenced as a night that's in the 
+
+Things to cover here: 
+
+test 123
+
+
+
+<span class="annotation" data-annotation="The opening line sets the scene for the in and out of 'tonight' vs 'all nights'. 'That's how it starts' kicks off the specific outing that this song refers to, but at the same time compares it to a standard formed by all the other nights and outings. This casual attitude and placement of the night kind of in the middle of all nights in terms of quality tugs against the palpable preciousness that the singer clearly has for the night. That interplay is what makes the poetry so potent, and over the course of the song as it builds to its sonic apex, the preciousness seeps into all those nights. The point it builds is that every moment with your friends is a treasure. This line sets the stage for all of that.">That's how it starts<br>
 We go back to your house</span>
 
 <span class="annotation" data-annotation="I've generally imagined 'the charts' as the music charts, as James Murphy is the lead singer of the band. I don't think it's particularly important. It continues to build the sense of friendship. He's giving credit to the friend as they 'figure it out,' or at the least try to _do_ something.">You check the charts<br>
 And start to figure it out</span>
 
-<span class="annotation" data-annotation="Prepare for an adventure! This subsection builds the anticipation of the evening being a fun one. It also alludes to the experience all parts have together.">And if it's crowded, all the better<br>
+<span class="annotation" data-annotation="This subsection builds the anticipation of the evening being a fun one. It also alludes to the experience all parts have together.">And if it's crowded, all the better<br>
 Because we know we're gonna be up late<br>
 But if you're worried about the weather<br>
 Then you picked the wrong place to stay</span>
@@ -49,7 +58,7 @@ One of the ways we show our age</span>
 <br>
 
 <span class="annotation" data-annotation="When we graduated college, my friends and all moved to different parts of the country. We had goals and careers to pursue. We just spent four years studying _for_ something. To go do whatever it was we wanted to leave our mark in. Moving to go pursue that, start our careers, move into the 'real world' was just the next move, right? We've spent this first five years planting those seeds, figuring out how to live on our own, support ourselves, and get with the plan.">You spent the first five years trying to get with the plan</span>
-
+ 
 <span class="annotation" data-annotation="We've all been terribly lonely doing it. Yeah yeah we have new friends in our new places, they're fine, but it's hard to beat shared experience. All we do is talk about silly plans to move to each others' cities, how we'll make a billion dollars and buy land for everyone to come live on, reminisce on stunts we pulled and memories we made. All this getting with the plan is fine and all, but underneath all that, any sort of 'dream' that resonates with me is some version of trying to be with my friends again.">And the next five years trying to be with your friends again</span>
 
 <span class="annotation" data-annotation="The prophecy here is that you run through life until you're forty five _trying_.">You're talking 45 turns just as fast as you can</span>
@@ -61,9 +70,8 @@ One of the ways we show our age</span>
 <span class="annotation" data-annotation="Back to the night together, things have hit some sort of wall.">It comes apart<br>
 The way it does in bad films</span>
 
-<span class="annotation" data-annotation="This is an example annotation.">Except the part</span>
-
-<span class="annotation" data-annotation="This is an example annotation.">Where the moral kicks in</span>
+<span class="annotation" data-annotation="This is an example annotation.">Except the part</br>
+Where the moral kicks in</span>
 
 <br>
 
@@ -93,7 +101,8 @@ Oh, this could be the last time
 
 <span class="annotation" data-annotation="This is an example annotation.">So here we go</span>
 
-<span class="annotation" data-annotation="This is an example annotation.">Like a sales force into the night</span>
+<span class="annotation" data-annotation="This line has always confused me a little bit. I think the reference the 'sales force' was a prediction on the success of B2B SaaS in the second tech revolution of the 2000s. Just kidding ofc that's not true. ">Like a sales force into the night</span>
+Magnanimous
 
 <span class="annotation" data-annotation="This is an example annotation.">And if I made a fool, if I made a fool, if I made a fool<br>
 On the road, there's always this</span>

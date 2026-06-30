@@ -3,7 +3,7 @@ title: References
 layout: post
 ---
 
-relic of a lost time, eh? remember when we used to write code lol
+relic of a lost time. remember when we used to write code?
 
 
 Amalgamation of code, commands, formulas, or tidbits I find myself repeatedly googling the syntax of 
