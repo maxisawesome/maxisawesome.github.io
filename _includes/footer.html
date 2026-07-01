@@ -1,4 +1,4 @@
-<div class="footer" style="position:fixed;bottom:0;left:0;right:0;height:70px;">
+<div class="footer" style="position:fixed;bottom:0;left:0;right:0;height:70px;z-index:5;pointer-events:none;">
     <!-- Load jQuery -->
     <!-- <script src="/vendor/jquery/jquery-3.3.1.min.js" type="text/javascript"></script> -->
     <script src="{{ '/' | relative_url }}assets/jquery/dist/jquery.js" type="text/javascript"></script>
@@ -19,8 +19,8 @@
         Javascript and Liquid code to gather a list of all footer images
         in /assets/images/headers/
     -->
-    <a href="{{ '/' | relative_url }}mood_board">
-        <img id="footer_img" alt="" style="float: right; bottom: 0;" src="{{ '/' | relative_url }}" width="70"
+    <a href="{{ '/' | relative_url }}mood_board" style="pointer-events:auto;">
+        <img id="footer_img" alt="" style="float: left; bottom: 0;" src="{{ '/' | relative_url }}" width="70"
             height="70">
     </a>
     <script type="text/javascript">
