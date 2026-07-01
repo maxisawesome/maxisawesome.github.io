@@ -7,11 +7,11 @@ I'm a Machine Learning Researcher currently at [Tacit Labs](tacitlabs.co). Befor
 
 My motion based hobbies include surfing, backpacking where I can forget about the anthropocene, lifting, and playing ultimate frisbee. My more stationary hobbies include puzzle games, rougelikes, and reading. In Austin I played frisbee on [Riverside](https://www.riversideultimate.org/) and loved hanging out in my backyard with [my cat, Callie](../cat). I grew up in Austin, went to school in [Los Angeles](https://www.oxy.edu/), moved back home, then to San Francisco in October 2023. 
 
-my poor attempts at professionalism are [here](https://www.linkedin.com/in/max-marion/)
-
 my worst takes are [here](https://twitter.com/maxisawesome538)
 
-research only is [here](https://twitter.com/maxdoesresearch)
+my poor attempts at professionalism are [here](https://www.linkedin.com/in/max-marion/)
+
+<!-- research only is [here](https://twitter.com/maxdoesresearch) -->
 
 my code is [here](https://github.com/maxisawesome)
 
