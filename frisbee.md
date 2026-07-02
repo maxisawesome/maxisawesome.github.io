@@ -18,3 +18,7 @@ Mostly about percentages. Really good players don't mess up.
 Leadership shines mostly when it's individually targetted.
 
 It's really fun to move your body
+
+four (three?) steps of progression from learning the rules to learning the plays to breaking the plays
+
+skill gives you defacto leadership 
