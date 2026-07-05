@@ -12,25 +12,12 @@ long posts
 
 ## Posts:
 
-[manifesto](../manifesto), May 2026
+<!-- This list is generated automatically from files in _posts/.
+     To add a post, drop a YYYY-MM-DD-title.md file in _posts/ — it shows up here.
+     Work-in-progress lives in _drafts/ and won't appear until moved to _posts/. -->
 
-[Tips for Applying to the Cohere Labs Research Scholars Program](../cohere_application), August 2025
+{% for post in site.posts %}
+[{{ post.title }}]({{ post.url | relative_url }}), {{ post.date | date: "%B %Y" }}
 
-[Research 101](../cohere_for_ai),  December 2023 
-
-[Life Advice from My First Job](../life_advice_from_kungfu),  January 2023 
-
-<!-- [I Am Simply So Amazed By Modern Technology](../modern_technology),  August 2022 -->
-
-<!-- [Dota Players Really Should Be Nicer to Each Other](../dota),   June 2022  -->
-
-[Ways Machine Learning Has Shaped My World View](../ml_concepts),  May 2022
-
-<!-- [Personal Opinions](../opinions), April 2022 -->
-
-<!-- [Evolution Does Not Achieve the Best Solution](/404.html),  April 2022 -->
-
-[The 5 Best Things I Saw at NeurIPS 2019](../2019-Neurips),  December 2019
-
-[Reflections on my First NeurIPS](/2018-12-13-NeurIPS-A-Beginners-Guide),  December 2018
+{% endfor %}
 

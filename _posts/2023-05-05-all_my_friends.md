@@ -1,6 +1,6 @@
 ---
 layout: post
-Title: Close Reading of All My Friends by LCD Soundsystem
+title: "Close Reading of All My Friends by LCD Soundsystem"
 ---
 
 All My Friends by LCD Soundsystem is my favorite song of all time. It's glory (glamour?) comes from it's perfect pairing of lyrical content and tone of music, how it wields a nostalgia for right now, and fits for everyone. It's both a celebration of deep, deep friendships and a lament towards what's needed to recognize its value.

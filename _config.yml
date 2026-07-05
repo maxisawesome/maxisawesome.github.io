@@ -21,6 +21,14 @@ highlighter:      pygments
 permalink:        pretty
 # relative_permalinks: true
 
+# Keep post URLs as /:title/ (e.g. /ml_concepts/) instead of the default
+# date-path URLs, so links stay identical after moving files into _posts/.
+defaults:
+  - scope:
+      type: posts
+    values:
+      permalink: /:title/
+
 # Setup
 title: Max Marion 
 # title: M³ 
