@@ -5,6 +5,8 @@ categories: Frisbee, advice
 ---
 
 
+
+
 ### The rules
 
 Ultimate is not a complicated game. You can't run with the disc. The field is 70 yards long, 40 yards wide, with two 20 yard end zones. Catching the disc in the endzone gets you one point. Games are played to a score, usually 13 or 15. One team is on offense, the other is on defense, and if the disc hits the ground or goes out of bounds, this swaps without a stoppage of play. Games are played to a score, usually 13 or 15.
@@ -73,3 +75,7 @@ I've captained two teams I've played on: my college team Detox and Riverside.
 look, if you're good, people will look up to you. It's irrelevant whether or not you have good leadership skills or good decision making abilities or competency in ppl management, your group will look to you for guidance. Use this if you so desire. I'd argue that if you are good becuase you want to do well, then you really want the team to do well, then this is an advantage you need to make use of. You see this everywhere - a good IC is more likely to be promoted to manager, even though the skillsets are completely seperate. If you are good, you should make the choice between embracing this or actively moving away from it.
 
 ## please play team sports
+
+
+
+pics:

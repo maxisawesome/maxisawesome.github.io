@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Writing 
+title: Notes 
 ---
 
-## Writing:
+## Notes:
 
 long posts
 <!-- If I find myself thinking about something for long enough, I'll wrangle all the points in my head into text. There is a theoretic audience in mind, but like most burgeoning artists, the real audience thus far has been isolated to family and friends. Feel free to send me some feedback. -->
