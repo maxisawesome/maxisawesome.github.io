@@ -3,11 +3,7 @@ layout: default
 title: Notes 
 ---
 
-## Notes:
-
-long posts
-
-## Posts:
+## long posts
 
 <!-- This list is generated automatically from files in _posts/.
      To add a post, drop a YYYY-MM-DD-title.md file in _posts/ — it shows up here.
