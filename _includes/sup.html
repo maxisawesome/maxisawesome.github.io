@@ -1,0 +1,99 @@
+<p class="sup" id="sup"><span class="sup-lead">sup </span><span class="sup-window" id="sup-window" title="click to respin"><span class="sup-reel" id="sup-reel"></span></span></p>
+
+<style>
+  .sup {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.35;
+    color: #313131;
+    margin: 0 0 .75rem;
+  }
+  .sup-window {
+    display: inline-block;
+    overflow: hidden;
+    height: 1.35em;
+    vertical-align: bottom;
+    cursor: pointer;
+  }
+  .sup-reel {
+    display: inline-block;
+    will-change: transform;
+  }
+  .sup-item {
+    display: block;
+    height: 1.35em;
+    line-height: 1.35em;
+    white-space: nowrap;
+  }
+</style>
+
+<script>
+(function () {
+  var WORDS = ["nerd", "weirdo", "friend", "homie", "champ", "wacko", "teammate", "player", "gamer"];
+  var CYCLES = 5;                 // full passes through the list before landing
+  var LINE = 1.35;                // em, must match .sup-item height
+  var reel = document.getElementById("sup-reel");
+  var win = document.getElementById("sup-window");
+  var reduced = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var spinning = false;
+
+  function shuffled(list) {
+    var a = list.slice();
+    for (var i = a.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var t = a[i]; a[i] = a[j]; a[j] = t;
+    }
+    return a;
+  }
+
+  function item(word) {
+    var el = document.createElement("span");
+    el.className = "sup-item";
+    el.textContent = word;
+    return el;
+  }
+
+  function spin() {
+    if (spinning) return;
+    spinning = true;
+
+    var winner = WORDS[Math.floor(Math.random() * WORDS.length)];
+    reel.textContent = "";
+    reel.style.transition = "none";
+    reel.style.transform = "translateY(0)";
+
+    if (reduced) {
+      reel.appendChild(item(winner));
+      spinning = false;
+      return;
+    }
+
+    // A few shuffled passes so the blur doesn't read as an obvious loop,
+    // then the winner as the last row we glide to a stop on.
+    for (var c = 0; c < CYCLES; c++) {
+      var pass = shuffled(WORDS);
+      for (var i = 0; i < pass.length; i++) reel.appendChild(item(pass[i]));
+    }
+    reel.appendChild(item(winner));
+    var last = CYCLES * WORDS.length;
+
+    // Reel is shrink-to-fit, so its width is the widest word; lock the
+    // viewport to that and nothing clips mid-spin.
+    win.style.width = reel.offsetWidth + "px";
+
+    requestAnimationFrame(function () {
+      requestAnimationFrame(function () {
+        reel.style.transition = "transform 2.6s cubic-bezier(0.15, 0.9, 0.2, 1)";
+        reel.style.transform = "translateY(-" + (last * LINE) + "em)";
+      });
+    });
+  }
+
+  reel.addEventListener("transitionend", function () {
+    spinning = false;
+  });
+  win.addEventListener("click", spin);
+
+  spin();
+})();
+</script>
