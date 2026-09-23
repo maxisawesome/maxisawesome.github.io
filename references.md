@@ -16,6 +16,7 @@ Amalgamation of code, commands, formulas, or tidbits I find myself repeatedly go
 ## ML code
 
 The most basic calls to openai client
+
 ```
 import openai
 base_url = None # if you need to specify a non-OpenAI model, set this to a base_url
@@ -35,6 +36,7 @@ print(response.choices[0].message.content)
 ```
 
 Call openai client with threads
+
 ```
 from openai import OpenAI
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -69,6 +71,7 @@ with ThreadPoolExecutor(max_workers=12) as executor:
 ```
 
 Using a tiktoken tokenizer
+
 ```
 import tiktoken
 
@@ -79,6 +82,7 @@ not_tokens = enc.decode([1, 2, 3, 4])
 ```
 
 Using a HuggingFace Tokenizer
+
 ```
 from transformers import AutoTokenizer
 
@@ -88,6 +92,7 @@ not_tokens = tokenizer.decode([1, 2, 3, 4])
 ```
 
 Load a HF dataset
+
 ```
 from datasets import load_dataset
 dataset = load_dataset("Aiden07/dota2_instruct_prompt", name="train")
@@ -108,6 +113,7 @@ with open('data.json', 'w') as fp:
 ```
 
 Read a .jsonl
+
 ```
 import json
 
@@ -157,23 +163,28 @@ for i, line in enumerate(stream_objects(json_filepath)):
 
 List comprehension with conditionals
 why are they like this w/ different conditionals this annoys me
+
 ```
 new_list = [x for x in list]
 new_list = [x for x in list if x <3]
 new_list = [x if x <3 else y for x in list ]
 ```
+
 Double List Comp with conditional
+
 ```
 # Get coords of all 1s in a grid
 ones = [(r, c) for r, row in enumerate(grid) for c, val in enumerate(row) if val == "1"]
 ```
 
 Debugging Interpreter 
+
 ```
 import IPython; IPython.embed()
 ```
 
 Time something in seconds
+
 ```
 import time
 start = time.time()

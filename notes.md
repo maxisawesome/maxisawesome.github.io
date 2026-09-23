@@ -14,3 +14,8 @@ title: Notes
 
 {% endfor %}
 
+## lists
+
+<!-- Hand-maintained: pages that aren't dated posts. Add a line per page. -->
+
+[toplists]({{ '/toplists' | relative_url }}) — lists of things I've done and things I like
