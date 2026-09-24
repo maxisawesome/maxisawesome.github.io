@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 Title: Home
 ---
 {% include sup.html %}

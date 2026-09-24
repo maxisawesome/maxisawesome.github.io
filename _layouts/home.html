@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="home-card">
+  <h1 class="home-name">{{ site.title }}</h1>
+
+  {{ content }}
+
+  <!-- Nav omits "About" — you're already on it. The full list, for every
+       other page, lives in _includes/sidebar.html; keep the two in sync. -->
+  <nav class="home-nav">
+    <a class="home-nav-item" href="{{ site.baseurl }}/notes">Notes</a>
+    <a class="home-nav-item" href="{{ site.baseurl }}/references">References</a>
+    <a class="home-nav-item" href="{{ site.baseurl }}/cat">Cat</a>
+    <a class="home-nav-item" href="{{ site.baseurl }}/assets/MaxMarionResume.pdf">CV</a>
+  </nav>
+
+  {% include social.html %}
+</div>
+
+{% include lights_out.html %}

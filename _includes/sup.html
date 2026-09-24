@@ -14,6 +14,10 @@
     height: 1.35em;
     vertical-align: bottom;
     cursor: pointer;
+    /* Soften the clip so words entering and leaving dissolve instead of
+       being guillotined. Kept narrow so the settled word stays crisp. */
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 18%, #000 82%, transparent 100%);
+            mask-image: linear-gradient(to bottom, transparent 0, #000 18%, #000 82%, transparent 100%);
   }
   .sup-reel {
     display: inline-block;

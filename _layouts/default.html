@@ -3,11 +3,12 @@
 
 {% include head.html %}
 
-<body class="theme-base-10">
+<body class="theme-base-10{% if page.layout == 'home' %} layout-home{% endif %}">
 
   {% include clouds.html %}
 
-  {% include sidebar.html %}
+  {% comment %} The home layout is a self-contained card; it carries its own nav. {% endcomment %}
+  {% unless page.layout == 'home' %}{% include sidebar.html %}{% endunless %}
 
   <div class="content container">
     {{ content }}

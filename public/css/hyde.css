@@ -340,3 +340,98 @@ a.sidebar-nav-item:focus {
     max-width: none;
   }
 }
+
+/*
+ * Home
+ *
+ * The homepage drops the fixed rail for a single centered "calling card":
+ * name, the sup-blurb, a short bio, nav and socials as one block. Every other
+ * page keeps the sidebar, which is why this is scoped to .layout-home.
+ */
+
+@media (min-width: 48em) {
+  .layout-home .content {
+    /* Undo the rail's gutter — nothing is pinned to the left here. */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 34rem;
+  }
+}
+
+.layout-home .content {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.home-name {
+  margin: 0 0 .35rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.1;
+  color: #16213e;
+  text-transform: lowercase;
+  letter-spacing: -0.02em;
+}
+
+/* The blurb is the name's second line, not a separate heading. The top
+   margin is load-bearing: the reel's window is a full line-height tall, so
+   mid-spin a partial word reaches the very top of it and would otherwise
+   collide with the name's descenders. */
+.layout-home .sup {
+  margin: .35rem 0 1.5rem;
+  color: #16213e;
+  opacity: .75;
+}
+
+.home-card p {
+  margin-bottom: .6rem;
+}
+
+.home-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.1rem;
+  margin: 1.75rem 0 1rem;
+}
+
+.home-nav-item {
+  color: #16213e;
+  opacity: .75;
+}
+
+a.home-nav-item:hover,
+a.home-nav-item:focus {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+/* Socials markup is shared with the sidebar; restate the colors outside it. */
+.home-card .sidebar-social a {
+  color: #16213e;
+  opacity: .6;
+}
+
+.home-card .sidebar-social a:hover {
+  opacity: 1;
+}
+
+/* Easter egg, not furniture: the puzzle trails the card rather than
+   sitting in permanent view like it does in the rail. */
+.layout-home .lo-wrap {
+  margin: 2.5rem 0 0;
+}
+
+@media (max-width: 48em) {
+  .home-name {
+    font-size: 2rem;
+  }
+  .layout-home .content {
+    min-height: 0;
+    padding-top: 4rem;
+  }
+}
