@@ -30,7 +30,7 @@
     line-height: 13px;
     letter-spacing: 0;
     white-space: pre;
-    color: #c3ccdc;
+    color: var(--sky-cloud);
   }
 </style>
 
@@ -104,15 +104,30 @@
 
   function ease(x) { return x < 0 ? 0 : x > 1 ? 1 : x * x * (3 - 2 * x); }
 
-  var start = null, last = 0, FPS = 14, MIN_DT = 1000 / FPS;
+  // Every frame is a pure function of elapsed seconds, so anchoring "elapsed"
+  // to a timestamp shared across page loads is enough to make the clouds carry
+  // on from where they were instead of re-blooming on each navigation.
+  // sessionStorage, not localStorage: the bloom should still play once when you
+  // first arrive, and closing the tab should reset it.
+  var EPOCH_KEY = "cloud-epoch";
+  var epoch = NaN;
+  try { epoch = parseFloat(sessionStorage.getItem(EPOCH_KEY)); } catch (e) {}
+  if (!isFinite(epoch)) {
+    epoch = Date.now();
+    // Storage can be blocked (private windows, cookies off). Failing there just
+    // means it blooms on every page, i.e. the old behaviour — degrade, not throw.
+    try { sessionStorage.setItem(EPOCH_KEY, epoch); } catch (e) {}
+  }
+
+  function elapsedSec() { return (Date.now() - epoch) / 1000; }
+  function levelAt(s) { return ease(s / RAMP_DUR) * 0.86 + 0.05; }
+
+  var last = 0, FPS = 14, MIN_DT = 1000 / FPS;
   function loop(ts) {
-    if (start === null) start = ts;
     if (ts - last >= MIN_DT) {
       last = ts;
-      var elapsed = (ts - start) / 1000;
-      var t = elapsed * TIME;
-      var level = ease(elapsed / RAMP_DUR) * 0.86 + 0.05;
-      frame(level, t);
+      var s = elapsedSec();
+      frame(levelAt(s), s * TIME);
     }
     requestAnimationFrame(loop);
   }
@@ -127,6 +142,11 @@
   if (reduced) {
     frame(0.9, 0); // static fully-formed cloud, no animation
   } else {
+    // Draw once synchronously so the clouds are already in place at first
+    // paint. Waiting for the first rAF leaves a blank flash on every
+    // navigation, which reads as a restart even when the phase is continuous.
+    var s0 = elapsedSec();
+    frame(levelAt(s0), s0 * TIME);
     requestAnimationFrame(loop);
   }
 })();
